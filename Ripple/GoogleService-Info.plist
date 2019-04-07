@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1091685957534-reh1ijjtfeum9ltdq1m7lu8u0k9pfqvu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1091685957534-reh1ijjtfeum9ltdq1m7lu8u0k9pfqvu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAd7nQsYb5M4VEgMp1rmId6woeOctpyO80</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1091685957534</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>trystonxhoyes.org.Ripple</string>
+	<key>PROJECT_ID</key>
+	<string>thesis-f3f2d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thesis-f3f2d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1091685957534:ios:3cdb36893752b1ac</string>
+	<key>DATABASE_URL</key>
+	<string>https://thesis-f3f2d.firebaseio.com</string>
+</dict>
+</plist>
