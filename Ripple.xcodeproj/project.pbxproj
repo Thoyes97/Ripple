@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3635CD4F225A7A5A005F6E4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */; };
+		3635CD51225A7CF3005F6E4C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD50225A7CF3005F6E4C /* LoginViewController.swift */; };
+		3635CD53225A7D09005F6E4C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD52225A7D09005F6E4C /* SignUpViewController.swift */; };
+		3635CD55225A7D43005F6E4C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD54225A7D43005F6E4C /* WelcomeViewController.swift */; };
+		3635CD57225A7D4F005F6E4C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD56225A7D4F005F6E4C /* HomeViewController.swift */; };
+		3635CD59225A7E56005F6E4C /* LGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD58225A7E56005F6E4C /* LGreetingViewController.swift */; };
+		3635CD5B225A7E79005F6E4C /* SGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD5A225A7E79005F6E4C /* SGreetingViewController.swift */; };
+		3635CD5D225A7EAD005F6E4C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD5C225A7EAD005F6E4C /* IntroViewController.swift */; };
+		3635CD5F225A7EBB005F6E4C /* HowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD5E225A7EBB005F6E4C /* HowViewController.swift */; };
+		3635CD61225A7ED4005F6E4C /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD60225A7ED4005F6E4C /* FocusViewController.swift */; };
+		3635CD63225A7EFD005F6E4C /* OnboardingEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD62225A7EFD005F6E4C /* OnboardingEndViewController.swift */; };
+		3635CD65225A7F57005F6E4C /* MusCurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD64225A7F57005F6E4C /* MusCurationViewController.swift */; };
+		3635CD67225A8248005F6E4C /* EmoSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD66225A8248005F6E4C /* EmoSelectionViewController.swift */; };
+		3635CD69225A8283005F6E4C /* ActSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD68225A8283005F6E4C /* ActSelectionViewController.swift */; };
+		3635CD6B225A8299005F6E4C /* ActBeginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD6A225A8299005F6E4C /* ActBeginViewController.swift */; };
+		3635CD6D225A82A9005F6E4C /* Prompt1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD6C225A82A9005F6E4C /* Prompt1ViewController.swift */; };
+		3635CD6F225A82BD005F6E4C /* Prompt2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD6E225A82BD005F6E4C /* Prompt2ViewController.swift */; };
+		3635CD71225A82D0005F6E4C /* Prompt3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD70225A82D0005F6E4C /* Prompt3ViewController.swift */; };
+		3635CD73225A82E0005F6E4C /* Prompt4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */; };
+		3635CD75225A82EA005F6E4C /* RelfectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */; };
+		3635CD77225A8323005F6E4C /* ReassureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD76225A8323005F6E4C /* ReassureViewController.swift */; };
 		36E966AE22565A9800510E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AD22565A9800510E92 /* AppDelegate.swift */; };
 		36E966B022565A9800510E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AF22565A9800510E92 /* ViewController.swift */; };
 		36E966B322565A9800510E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B122565A9800510E92 /* Main.storyboard */; };
@@ -19,6 +39,26 @@
 /* Begin PBXFileReference section */
 		247952FCCF6864431937561C /* Pods_Ripple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "/Users/tryston/Desktop/School Files/Year 4/Interaction Design Studies 2/Thesis Code/Ripple/Ripple/GoogleService-Info.plist"; sourceTree = "<absolute>"; };
+		3635CD50225A7CF3005F6E4C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3635CD52225A7D09005F6E4C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3635CD54225A7D43005F6E4C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		3635CD56225A7D4F005F6E4C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3635CD58225A7E56005F6E4C /* LGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGreetingViewController.swift; sourceTree = "<group>"; };
+		3635CD5A225A7E79005F6E4C /* SGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGreetingViewController.swift; sourceTree = "<group>"; };
+		3635CD5C225A7EAD005F6E4C /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		3635CD5E225A7EBB005F6E4C /* HowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowViewController.swift; sourceTree = "<group>"; };
+		3635CD60225A7ED4005F6E4C /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
+		3635CD62225A7EFD005F6E4C /* OnboardingEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingEndViewController.swift; sourceTree = "<group>"; };
+		3635CD64225A7F57005F6E4C /* MusCurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusCurationViewController.swift; sourceTree = "<group>"; };
+		3635CD66225A8248005F6E4C /* EmoSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoSelectionViewController.swift; sourceTree = "<group>"; };
+		3635CD68225A8283005F6E4C /* ActSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActSelectionViewController.swift; sourceTree = "<group>"; };
+		3635CD6A225A8299005F6E4C /* ActBeginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActBeginViewController.swift; sourceTree = "<group>"; };
+		3635CD6C225A82A9005F6E4C /* Prompt1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt1ViewController.swift; sourceTree = "<group>"; };
+		3635CD6E225A82BD005F6E4C /* Prompt2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt2ViewController.swift; sourceTree = "<group>"; };
+		3635CD70225A82D0005F6E4C /* Prompt3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt3ViewController.swift; sourceTree = "<group>"; };
+		3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt4ViewController.swift; sourceTree = "<group>"; };
+		3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelfectionViewController.swift; sourceTree = "<group>"; };
+		3635CD76225A8323005F6E4C /* ReassureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReassureViewController.swift; sourceTree = "<group>"; };
 		36E966AA22565A9800510E92 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E966AD22565A9800510E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E966AF22565A9800510E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,7 +109,27 @@
 				36E966B422565A9A00510E92 /* Assets.xcassets */,
 				36E966B622565A9A00510E92 /* LaunchScreen.storyboard */,
 				3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */,
+				3635CD50225A7CF3005F6E4C /* LoginViewController.swift */,
+				3635CD64225A7F57005F6E4C /* MusCurationViewController.swift */,
+				3635CD54225A7D43005F6E4C /* WelcomeViewController.swift */,
+				3635CD62225A7EFD005F6E4C /* OnboardingEndViewController.swift */,
+				3635CD5E225A7EBB005F6E4C /* HowViewController.swift */,
+				3635CD52225A7D09005F6E4C /* SignUpViewController.swift */,
+				3635CD60225A7ED4005F6E4C /* FocusViewController.swift */,
+				3635CD58225A7E56005F6E4C /* LGreetingViewController.swift */,
+				3635CD5A225A7E79005F6E4C /* SGreetingViewController.swift */,
 				36E966B922565A9A00510E92 /* Info.plist */,
+				3635CD56225A7D4F005F6E4C /* HomeViewController.swift */,
+				3635CD5C225A7EAD005F6E4C /* IntroViewController.swift */,
+				3635CD66225A8248005F6E4C /* EmoSelectionViewController.swift */,
+				3635CD68225A8283005F6E4C /* ActSelectionViewController.swift */,
+				3635CD6A225A8299005F6E4C /* ActBeginViewController.swift */,
+				3635CD6C225A82A9005F6E4C /* Prompt1ViewController.swift */,
+				3635CD6E225A82BD005F6E4C /* Prompt2ViewController.swift */,
+				3635CD70225A82D0005F6E4C /* Prompt3ViewController.swift */,
+				3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */,
+				3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */,
+				3635CD76225A8323005F6E4C /* ReassureViewController.swift */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -216,8 +276,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3635CD71225A82D0005F6E4C /* Prompt3ViewController.swift in Sources */,
+				3635CD5D225A7EAD005F6E4C /* IntroViewController.swift in Sources */,
+				3635CD77225A8323005F6E4C /* ReassureViewController.swift in Sources */,
+				3635CD5F225A7EBB005F6E4C /* HowViewController.swift in Sources */,
+				3635CD51225A7CF3005F6E4C /* LoginViewController.swift in Sources */,
+				3635CD6F225A82BD005F6E4C /* Prompt2ViewController.swift in Sources */,
+				3635CD6B225A8299005F6E4C /* ActBeginViewController.swift in Sources */,
+				3635CD55225A7D43005F6E4C /* WelcomeViewController.swift in Sources */,
+				3635CD59225A7E56005F6E4C /* LGreetingViewController.swift in Sources */,
 				36E966B022565A9800510E92 /* ViewController.swift in Sources */,
+				3635CD53225A7D09005F6E4C /* SignUpViewController.swift in Sources */,
+				3635CD69225A8283005F6E4C /* ActSelectionViewController.swift in Sources */,
 				36E966AE22565A9800510E92 /* AppDelegate.swift in Sources */,
+				3635CD6D225A82A9005F6E4C /* Prompt1ViewController.swift in Sources */,
+				3635CD65225A7F57005F6E4C /* MusCurationViewController.swift in Sources */,
+				3635CD57225A7D4F005F6E4C /* HomeViewController.swift in Sources */,
+				3635CD67225A8248005F6E4C /* EmoSelectionViewController.swift in Sources */,
+				3635CD61225A7ED4005F6E4C /* FocusViewController.swift in Sources */,
+				3635CD5B225A7E79005F6E4C /* SGreetingViewController.swift in Sources */,
+				3635CD63225A7EFD005F6E4C /* OnboardingEndViewController.swift in Sources */,
+				3635CD75225A82EA005F6E4C /* RelfectionViewController.swift in Sources */,
+				3635CD73225A82E0005F6E4C /* Prompt4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
