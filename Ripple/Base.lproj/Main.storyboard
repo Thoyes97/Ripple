@@ -582,7 +582,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="😮 Shock"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="oXZ-JU-TGW"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelShock" id="oXZ-JU-TGW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWA-oG-7fh">
@@ -590,7 +590,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="😊 Happy"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="ALN-sn-m6u"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelHappy" id="ALN-sn-m6u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPA-MJ-lVw">
@@ -598,7 +598,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="🤬 Anger"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="9Wk-SN-E8S"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelAnger" id="9Wk-SN-E8S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHb-GL-Nj7">
@@ -606,7 +606,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="😍 Love"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="4Jw-dG-g7q"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelLove" id="4Jw-dG-g7q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPl-jg-xf2">
@@ -614,7 +614,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="😨 Fear"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="Gyy-l8-2X7"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelFear" id="Gyy-l8-2X7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNH-O5-xud">
@@ -622,21 +622,13 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="😭 Sad"/>
                                 <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" id="m8D-kU-hgy"/>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelSad" id="m8D-kU-hgy"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GLH-xv-NH5"/>
                     </view>
-                    <connections>
-                        <outlet property="Anger" destination="tPA-MJ-lVw" id="1VI-7c-Bjd"/>
-                        <outlet property="Fear" destination="TPl-jg-xf2" id="Ivc-U2-xTf"/>
-                        <outlet property="Happy" destination="zWA-oG-7fh" id="7Cy-C5-n8c"/>
-                        <outlet property="Love" destination="rHb-GL-Nj7" id="vXr-wY-ZC7"/>
-                        <outlet property="Sad" destination="rNH-O5-xud" id="2Kx-0h-reZ"/>
-                        <outlet property="Shock" destination="6fD-U2-w6O" id="stX-rz-el9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mat-Df-kcQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -645,7 +637,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
         <!--Act Selection View Controller-->
         <scene sceneID="k7V-7F-cdi">
             <objects>
-                <viewController id="9vD-FR-IxN" customClass="ActSelectionViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbActvity" id="9vD-FR-IxN" customClass="ActSelectionViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8um-Ua-MhV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -754,10 +746,36 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <segue destination="B9G-23-k44" kind="show" id="mEx-aG-gBI"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1px-7W-jH5">
+                                <rect key="frame" x="166" y="145" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYn-Ki-hxZ">
+                                <rect key="frame" x="166" y="180" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zg-jP-Zwx">
+                                <rect key="frame" x="22" y="33" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="bb9-qc-Wzp" kind="show" id="0AK-Ur-AZY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Li5-qZ-fDY"/>
                     </view>
+                    <connections>
+                        <outlet property="emojiLabel" destination="1px-7W-jH5" id="UQN-VB-frB"/>
+                        <outlet property="wordLabel" destination="cYn-Ki-hxZ" id="TRn-Od-iQd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ob5-pS-OlE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -824,7 +842,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
         <!--Page View Controller-->
         <scene sceneID="SyJ-r4-2Lr">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="tN2-mp-wPl" customClass="PageViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="min" id="tN2-mp-wPl" customClass="PageViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rk2-kF-D7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4466" y="805"/>
@@ -970,8 +988,9 @@ we are going to cope with  complex emotions that are  looked down upon.</str
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bHa-C6-FPG"/>
-        <segue reference="ALN-sn-m6u"/>
+        <segue reference="u8c-tD-sSJ"/>
+        <segue reference="4Jw-dG-g7q"/>
+        <segue reference="0AK-Ur-AZY"/>
         <segue reference="Urt-n2-hiT"/>
         <segue reference="j4y-SI-fOw"/>
         <segue reference="1AB-bO-Jza"/>

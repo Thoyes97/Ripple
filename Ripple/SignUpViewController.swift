@@ -62,7 +62,7 @@ class SignUpViewController: UIViewController {
                 let uuid = Auth.auth().currentUser?.uid
                 let newUserReference = usersReference.child((uuid ?? nil)!)
                 newUserReference.setValue(["First Name": self.firstName.text!, "Email": self.email.text!])
-                print(" user location \(newUserReference.description())")
+               
             }
         }
     }
