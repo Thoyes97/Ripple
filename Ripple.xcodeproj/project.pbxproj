@@ -28,6 +28,7 @@
 		3635CD73225A82E0005F6E4C /* Prompt4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */; };
 		3635CD75225A82EA005F6E4C /* RelfectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */; };
 		3635CD77225A8323005F6E4C /* ReassureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD76225A8323005F6E4C /* ReassureViewController.swift */; };
+		3635CD79225AC8D5005F6E4C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD78225AC8D5005F6E4C /* PageViewController.swift */; };
 		36E966AE22565A9800510E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AD22565A9800510E92 /* AppDelegate.swift */; };
 		36E966B022565A9800510E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AF22565A9800510E92 /* ViewController.swift */; };
 		36E966B322565A9800510E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B122565A9800510E92 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt4ViewController.swift; sourceTree = "<group>"; };
 		3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelfectionViewController.swift; sourceTree = "<group>"; };
 		3635CD76225A8323005F6E4C /* ReassureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReassureViewController.swift; sourceTree = "<group>"; };
+		3635CD78225AC8D5005F6E4C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		36E966AA22565A9800510E92 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E966AD22565A9800510E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E966AF22565A9800510E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */,
 				3635CD50225A7CF3005F6E4C /* LoginViewController.swift */,
 				3635CD64225A7F57005F6E4C /* MusCurationViewController.swift */,
+				3635CD78225AC8D5005F6E4C /* PageViewController.swift */,
 				3635CD54225A7D43005F6E4C /* WelcomeViewController.swift */,
 				3635CD62225A7EFD005F6E4C /* OnboardingEndViewController.swift */,
 				3635CD5E225A7EBB005F6E4C /* HowViewController.swift */,
@@ -232,6 +235,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-Ripple/Pods-Ripple-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -240,6 +244,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,7 @@
 				3635CD5F225A7EBB005F6E4C /* HowViewController.swift in Sources */,
 				3635CD51225A7CF3005F6E4C /* LoginViewController.swift in Sources */,
 				3635CD6F225A82BD005F6E4C /* Prompt2ViewController.swift in Sources */,
+				3635CD79225AC8D5005F6E4C /* PageViewController.swift in Sources */,
 				3635CD6B225A8299005F6E4C /* ActBeginViewController.swift in Sources */,
 				3635CD55225A7D43005F6E4C /* WelcomeViewController.swift in Sources */,
 				3635CD59225A7E56005F6E4C /* LGreetingViewController.swift in Sources */,
