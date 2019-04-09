@@ -29,6 +29,27 @@
 		3635CD75225A82EA005F6E4C /* RelfectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */; };
 		3635CD77225A8323005F6E4C /* ReassureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD76225A8323005F6E4C /* ReassureViewController.swift */; };
 		3635CD79225AC8D5005F6E4C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3635CD78225AC8D5005F6E4C /* PageViewController.swift */; };
+		3635CDAD225D1466005F6E4C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD8F225D13DE005F6E4C /* OpenSans-Bold.ttf */; };
+		3635CDAE225D146B005F6E4C /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD93225D13DF005F6E4C /* OpenSans-BoldItalic.ttf */; };
+		3635CDAF225D146E005F6E4C /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD96225D13DF005F6E4C /* OpenSans-ExtraBold.ttf */; };
+		3635CDB0225D1471005F6E4C /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD91225D13DE005F6E4C /* OpenSans-ExtraBoldItalic.ttf */; };
+		3635CDB1225D1474005F6E4C /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD98225D13E0005F6E4C /* OpenSans-Italic.ttf */; };
+		3635CDB2225D1477005F6E4C /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD90225D13DE005F6E4C /* OpenSans-Light.ttf */; };
+		3635CDB3225D147A005F6E4C /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD95225D13DF005F6E4C /* OpenSans-LightItalic.ttf */; };
+		3635CDB4225D147D005F6E4C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD92225D13DE005F6E4C /* OpenSans-Regular.ttf */; };
+		3635CDB5225D1480005F6E4C /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD94225D13DF005F6E4C /* OpenSans-SemiBold.ttf */; };
+		3635CDB6225D1482005F6E4C /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CD97225D13E0005F6E4C /* OpenSans-SemiBoldItalic.ttf */; };
+		3635CDC1225D150A005F6E4C /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDB7225D1509005F6E4C /* Rubik-BlackItalic.ttf */; };
+		3635CDC2225D150A005F6E4C /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDB8225D1509005F6E4C /* Rubik-Bold.ttf */; };
+		3635CDC3225D150A005F6E4C /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDB9225D1509005F6E4C /* Rubik-MediumItalic.ttf */; };
+		3635CDC4225D150A005F6E4C /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBA225D1509005F6E4C /* Rubik-Italic.ttf */; };
+		3635CDC5225D150A005F6E4C /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBB225D1509005F6E4C /* Rubik-Regular.ttf */; };
+		3635CDC6225D150A005F6E4C /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBC225D1509005F6E4C /* Rubik-BoldItalic.ttf */; };
+		3635CDC7225D150A005F6E4C /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */; };
+		3635CDC8225D150A005F6E4C /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBE225D150A005F6E4C /* Rubik-Black.ttf */; };
+		3635CDCA225D150A005F6E4C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */; };
+		3635CDCB225D16E3005F6E4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B922565A9A00510E92 /* Info.plist */; };
+		3635CDCC225D182C005F6E4C /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */; };
 		36E966AE22565A9800510E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AD22565A9800510E92 /* AppDelegate.swift */; };
 		36E966B022565A9800510E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AF22565A9800510E92 /* ViewController.swift */; };
 		36E966B322565A9800510E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B122565A9800510E92 /* Main.storyboard */; };
@@ -61,6 +82,26 @@
 		3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelfectionViewController.swift; sourceTree = "<group>"; };
 		3635CD76225A8323005F6E4C /* ReassureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReassureViewController.swift; sourceTree = "<group>"; };
 		3635CD78225AC8D5005F6E4C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		3635CD8F225D13DE005F6E4C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		3635CD90225D13DE005F6E4C /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		3635CD91225D13DE005F6E4C /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3635CD92225D13DE005F6E4C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3635CD93225D13DF005F6E4C /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3635CD94225D13DF005F6E4C /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		3635CD95225D13DF005F6E4C /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		3635CD96225D13DF005F6E4C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3635CD97225D13E0005F6E4C /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3635CD98225D13E0005F6E4C /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		3635CDB7225D1509005F6E4C /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3635CDB8225D1509005F6E4C /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		3635CDB9225D1509005F6E4C /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3635CDBA225D1509005F6E4C /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		3635CDBB225D1509005F6E4C /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		3635CDBC225D1509005F6E4C /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		3635CDBE225D150A005F6E4C /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		3635CDCD225D182C005F6E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Rubik-Light.ttf"; sourceTree = "<group>"; };
 		36E966AA22565A9800510E92 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E966AD22565A9800510E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E966AF22565A9800510E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +125,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3635CD8E225D13DD005F6E4C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3635CDBE225D150A005F6E4C /* Rubik-Black.ttf */,
+				3635CDB7225D1509005F6E4C /* Rubik-BlackItalic.ttf */,
+				3635CDB8225D1509005F6E4C /* Rubik-Bold.ttf */,
+				3635CDBC225D1509005F6E4C /* Rubik-BoldItalic.ttf */,
+				3635CDBA225D1509005F6E4C /* Rubik-Italic.ttf */,
+				3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */,
+				3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */,
+				3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */,
+				3635CDB9225D1509005F6E4C /* Rubik-MediumItalic.ttf */,
+				3635CDBB225D1509005F6E4C /* Rubik-Regular.ttf */,
+				3635CD8F225D13DE005F6E4C /* OpenSans-Bold.ttf */,
+				3635CD93225D13DF005F6E4C /* OpenSans-BoldItalic.ttf */,
+				3635CD96225D13DF005F6E4C /* OpenSans-ExtraBold.ttf */,
+				3635CD91225D13DE005F6E4C /* OpenSans-ExtraBoldItalic.ttf */,
+				3635CD98225D13E0005F6E4C /* OpenSans-Italic.ttf */,
+				3635CD90225D13DE005F6E4C /* OpenSans-Light.ttf */,
+				3635CD95225D13DF005F6E4C /* OpenSans-LightItalic.ttf */,
+				3635CD92225D13DE005F6E4C /* OpenSans-Regular.ttf */,
+				3635CD94225D13DF005F6E4C /* OpenSans-SemiBold.ttf */,
+				3635CD97225D13E0005F6E4C /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		36E966A122565A9800510E92 = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +176,7 @@
 				36E966AD22565A9800510E92 /* AppDelegate.swift */,
 				36E966AF22565A9800510E92 /* ViewController.swift */,
 				36E966B122565A9800510E92 /* Main.storyboard */,
-				36E966B422565A9A00510E92 /* Assets.xcassets */,
 				36E966B622565A9A00510E92 /* LaunchScreen.storyboard */,
-				3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */,
 				3635CD50225A7CF3005F6E4C /* LoginViewController.swift */,
 				3635CD64225A7F57005F6E4C /* MusCurationViewController.swift */,
 				3635CD78225AC8D5005F6E4C /* PageViewController.swift */,
@@ -121,7 +187,6 @@
 				3635CD60225A7ED4005F6E4C /* FocusViewController.swift */,
 				3635CD58225A7E56005F6E4C /* LGreetingViewController.swift */,
 				3635CD5A225A7E79005F6E4C /* SGreetingViewController.swift */,
-				36E966B922565A9A00510E92 /* Info.plist */,
 				3635CD56225A7D4F005F6E4C /* HomeViewController.swift */,
 				3635CD5C225A7EAD005F6E4C /* IntroViewController.swift */,
 				3635CD66225A8248005F6E4C /* EmoSelectionViewController.swift */,
@@ -133,6 +198,10 @@
 				3635CD72225A82E0005F6E4C /* Prompt4ViewController.swift */,
 				3635CD74225A82EA005F6E4C /* RelfectionViewController.swift */,
 				3635CD76225A8323005F6E4C /* ReassureViewController.swift */,
+				36E966B922565A9A00510E92 /* Info.plist */,
+				3635CD4E225A79EA005F6E4C /* GoogleService-Info.plist */,
+				36E966B422565A9A00510E92 /* Assets.xcassets */,
+				3635CD8E225D13DD005F6E4C /* Fonts */,
 			);
 			path = Ripple;
 			sourceTree = "<group>";
@@ -214,9 +283,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3635CDB6225D1482005F6E4C /* OpenSans-SemiBoldItalic.ttf in Resources */,
 				36E966B822565A9A00510E92 /* LaunchScreen.storyboard in Resources */,
+				3635CDB0225D1471005F6E4C /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				3635CDB3225D147A005F6E4C /* OpenSans-LightItalic.ttf in Resources */,
+				3635CDB5225D1480005F6E4C /* OpenSans-SemiBold.ttf in Resources */,
+				3635CDC6225D150A005F6E4C /* Rubik-BoldItalic.ttf in Resources */,
+				3635CDCC225D182C005F6E4C /* Rubik-Light.ttf in Resources */,
+				3635CDC2225D150A005F6E4C /* Rubik-Bold.ttf in Resources */,
+				3635CDC1225D150A005F6E4C /* Rubik-BlackItalic.ttf in Resources */,
 				3635CD4F225A7A5A005F6E4C /* GoogleService-Info.plist in Resources */,
+				3635CDC7225D150A005F6E4C /* Rubik-LightItalic.ttf in Resources */,
+				3635CDB1225D1474005F6E4C /* OpenSans-Italic.ttf in Resources */,
+				3635CDAD225D1466005F6E4C /* OpenSans-Bold.ttf in Resources */,
+				3635CDB4225D147D005F6E4C /* OpenSans-Regular.ttf in Resources */,
+				3635CDC3225D150A005F6E4C /* Rubik-MediumItalic.ttf in Resources */,
+				3635CDCA225D150A005F6E4C /* Rubik-Medium.ttf in Resources */,
+				3635CDC8225D150A005F6E4C /* Rubik-Black.ttf in Resources */,
 				36E966B522565A9A00510E92 /* Assets.xcassets in Resources */,
+				3635CDAE225D146B005F6E4C /* OpenSans-BoldItalic.ttf in Resources */,
+				3635CDC4225D150A005F6E4C /* Rubik-Italic.ttf in Resources */,
+				3635CDC5225D150A005F6E4C /* Rubik-Regular.ttf in Resources */,
+				3635CDAF225D146E005F6E4C /* OpenSans-ExtraBold.ttf in Resources */,
+				3635CDB2225D1477005F6E4C /* OpenSans-Light.ttf in Resources */,
+				3635CDCB225D16E3005F6E4C /* Info.plist in Resources */,
 				36E966B322565A9800510E92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +400,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3635CDCD225D182C005F6E4C /* en */,
+			);
+			name = "Rubik-Light.ttf";
+			path = ../../../../../../../Rubik;
+			sourceTree = "<group>";
+		};
 		36E966B122565A9800510E92 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

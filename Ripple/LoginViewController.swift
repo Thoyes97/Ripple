@@ -9,14 +9,18 @@
 import UIKit
 import Firebase
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate{
 
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+//Code retrieved from https://www.youtube.com/watch?v=bhp08NX4Pe4 - Hide the keyboard when user clicks return on the keyboard
+        email.delegate = self
+        password.delegate = self
+        
         // Do any additional setup after loading the view.
 //           Looks to see if the user is already logged in - if it does brings them right to the Homeview
         if Auth.auth().currentUser != nil {
@@ -43,4 +47,10 @@ class LoginViewController: UIViewController {
         }
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        email.resignFirstResponder()
+        password.resignFirstResponder()
+        return true
+    }
 }
+

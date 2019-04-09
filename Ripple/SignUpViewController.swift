@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var firstName: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -19,6 +19,11 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var signUp: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        firstName.delegate = self
+        email.delegate = self
+        password.delegate = self
+        confirmPass.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -67,6 +72,12 @@ class SignUpViewController: UIViewController {
         }
     }
     
-   
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        firstName.resignFirstResponder()
+        email.resignFirstResponder()
+        password.resignFirstResponder()
+        confirmPass.resignFirstResponder()
+        return true
+    }
 
 }

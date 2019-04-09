@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import MediaPlayer
 
-class ActSelectionViewController: UIViewController {
+class ActSelectionViewController: UIViewController, MPMediaPickerControllerDelegate {
+    
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var wordLabel: UILabel!
     
