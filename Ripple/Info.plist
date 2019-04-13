@@ -50,7 +50,6 @@
 		<string>Rubik-Bold.ttf</string>
 		<string>Rubik-BoldItalic.ttf</string>
 		<string>Rubik-Italic.ttf</string>
-		<string>Rubik-Light.ttf</string>
 		<string>Rubik-LightItalic.ttf</string>
 		<string>Rubik-Medium.ttf</string>
 		<string>Rubik-MediumItalic.ttf</string>
@@ -66,5 +65,7 @@
 		<string>OpenSans-SemiBoldItalic.ttf</string>
 		<string>OpenSans-Regular.ttf</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Music Library</string>
 </dict>
 </plist>

@@ -9,6 +9,23 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+        <array key="OpenSans-SemiBold.ttf">
+            <string>OpenSans-SemiBold</string>
+        </array>
+        <array key="Rubik-Bold.ttf">
+            <string>Rubik-Bold</string>
+        </array>
+        <array key="Rubik-Light.ttf">
+            <string>Rubik-Light</string>
+        </array>
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="h7J-S4-eP2">
@@ -44,33 +61,34 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mindfulness meets music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWY-eh-WmV">
-                                <rect key="frame" x="90" y="219" width="195" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="92.5" y="180.5" width="190" height="22"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-tV-Jhg">
-                                <rect key="frame" x="90" y="278" width="195" height="30"/>
+                                <rect key="frame" x="90" y="269" width="195" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="lm7-7d-7Ay"/>
                                     <constraint firstAttribute="width" constant="195" id="uqQ-Mz-Ulf"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1cY-cL-aCY">
-                                <rect key="frame" x="90" y="329" width="195" height="30"/>
+                                <rect key="frame" x="90" y="307" width="195" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="keE-sa-HhE"/>
                                     <constraint firstAttribute="width" constant="195" id="ksF-OK-hJ7"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8f-qC-qLv">
                                 <rect key="frame" x="137" y="429" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="18"/>
                                 <state key="normal" title="Login" backgroundImage="CTAButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -79,39 +97,41 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account yet?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lro-Rl-ZJR">
-                                <rect key="frame" x="75" y="618" width="175" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="75" y="617" width="175" height="19.5"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0E-8q-1g1">
-                                <rect key="frame" x="254" y="612" width="45" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Signup"/>
+                                <rect key="frame" x="254" y="610.5" width="45" height="32"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="Signup">
+                                    <color key="titleColor" red="0.29411764705882354" green="0.43137254901960786" blue="0.80392156862745101" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="ex6-Or-9MM" kind="show" id="TPd-Aa-UFY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ripple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fux-Zf-LWv">
-                                <rect key="frame" x="163.5" y="167" width="48" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="143.5" y="146" width="88" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Bold" family="Rubik" pointSize="28"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.56862745098039214" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1cY-cL-aCY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="10.5" id="0Wc-BB-FA7"/>
+                            <constraint firstItem="1cY-cL-aCY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-11.5" id="0Wc-BB-FA7"/>
                             <constraint firstItem="lro-Rl-ZJR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="293" id="4lf-KK-rZf"/>
                             <constraint firstItem="Fux-Zf-LWv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5EZ-W1-PfR"/>
-                            <constraint firstItem="Fux-Zf-LWv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-156" id="KEe-7b-OGr"/>
+                            <constraint firstItem="Fux-Zf-LWv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-170.75" id="KEe-7b-OGr"/>
                             <constraint firstItem="OTd-H2-6aZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OL9-Z6-5Zl"/>
                             <constraint firstItem="lWY-eh-WmV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SYH-YB-7V7"/>
-                            <constraint firstItem="JDi-tV-Jhg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40.5" id="TDG-Ea-NUo"/>
+                            <constraint firstItem="JDi-tV-Jhg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-49.5" id="TDG-Ea-NUo"/>
                             <constraint firstItem="OTd-H2-6aZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YUJ-vw-aNR"/>
                             <constraint firstItem="JDi-tV-Jhg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aM2-CE-1pR"/>
                             <constraint firstItem="S0E-8q-1g1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="89" id="bBV-Fl-Dz8"/>
-                            <constraint firstItem="lWY-eh-WmV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-104" id="fD1-2j-4nK"/>
+                            <constraint firstItem="lWY-eh-WmV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-142" id="fD1-2j-4nK"/>
                             <constraint firstItem="S0E-8q-1g1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="293" id="qPd-94-ijt"/>
                             <constraint firstItem="s8f-qC-qLv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u9h-Wn-DVk"/>
                             <constraint firstItem="lro-Rl-ZJR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-25" id="uDu-ZM-e5f"/>
@@ -148,39 +168,76 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ripple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qO-SX-zYw">
-                                <rect key="frame" x="163.5" y="127.5" width="48" height="20"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="143.5" y="146.5" width="88" height="33"/>
+                                <fontDescription key="fontDescription" name="Rubik-Bold" family="Rubik" pointSize="28"/>
+                                <color key="textColor" red="0.27058823529411763" green="0.56862745098039214" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mindfulness meets music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZY-Fz-20K">
-                                <rect key="frame" x="90" y="166" width="195" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="92.5" y="180.5" width="190" height="22"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="viY-Nn-TrB">
-                                <rect key="frame" x="90" y="267" width="195" height="30"/>
+                                <rect key="frame" x="90" y="307" width="195" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="Pse-jD-oel"/>
                                     <constraint firstAttribute="height" constant="30" id="pqs-p8-RVg"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vUw-Ae-bsc">
-                                <rect key="frame" x="90" y="312" width="195" height="30"/>
+                                <rect key="frame" x="90" y="347" width="195" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="EKp-d4-WUO"/>
                                     <constraint firstAttribute="height" constant="30" id="sjR-Fg-tA2"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwE-ET-TRJ">
+                                <rect key="frame" x="108.5" y="617" width="114" height="19.5"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-cg-2MJ">
+                                <rect key="frame" x="90" y="269" width="195" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Jtc-Td-FDd"/>
+                                    <constraint firstAttribute="width" constant="195" id="r7a-jG-CZv"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOK-8J-sjo">
+                                <rect key="frame" x="90" y="385" width="195" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8RQ-3G-vdT"/>
+                                    <constraint firstAttribute="width" constant="195" id="puG-2X-ngz"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jv-5c-GUN">
+                                <rect key="frame" x="226" y="610.5" width="36" height="32"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="0.29411764709999999" green="0.43137254899999999" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1AB-bO-Jza"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajw-q9-rRr">
-                                <rect key="frame" x="137" y="436" width="101" height="38"/>
+                                <rect key="frame" x="137" y="456" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="18"/>
                                 <state key="normal" title="Sign Up" backgroundImage="CTAButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -188,64 +245,30 @@
                                     <action selector="signUpAction:" destination="ex6-Or-9MM" eventType="touchUpInside" id="aCv-d8-vb6"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwE-ET-TRJ">
-                                <rect key="frame" x="108" y="618" width="115" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiO-cg-2MJ">
-                                <rect key="frame" x="90" y="224" width="195" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Jtc-Td-FDd"/>
-                                    <constraint firstAttribute="width" constant="195" id="r7a-jG-CZv"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bOK-8J-sjo">
-                                <rect key="frame" x="90" y="350" width="195" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="8RQ-3G-vdT"/>
-                                    <constraint firstAttribute="width" constant="195" id="puG-2X-ngz"/>
-                                </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jv-5c-GUN">
-                                <rect key="frame" x="224" y="612" width="36" height="29"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Login"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="1AB-bO-Jza"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="viY-Nn-TrB" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="0PI-mM-neD"/>
-                            <constraint firstItem="vUw-Ae-bsc" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-6.5" id="25a-zw-vHU"/>
-                            <constraint firstItem="3jv-5c-GUN" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" constant="54.5" id="334-8K-Vn8"/>
+                            <constraint firstItem="vUw-Ae-bsc" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="28.5" id="25a-zw-vHU"/>
+                            <constraint firstItem="3jv-5c-GUN" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" constant="56.5" id="334-8K-Vn8"/>
                             <constraint firstItem="aOG-Y3-gyy" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="3Sd-KQ-63l"/>
-                            <constraint firstItem="2qO-SX-zYw" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-196" id="BEa-Ca-NAG"/>
+                            <constraint firstItem="2qO-SX-zYw" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-170.75" id="BEa-Ca-NAG"/>
                             <constraint firstItem="NwE-ET-TRJ" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" constant="-22" id="EZx-cn-GsZ"/>
                             <constraint firstItem="3jv-5c-GUN" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="293" id="Ii4-Ej-Ohb"/>
-                            <constraint firstItem="viY-Nn-TrB" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-51.5" id="MfG-ED-pkk"/>
-                            <constraint firstItem="bOK-8J-sjo" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="31.5" id="NDk-Hl-8uK"/>
-                            <constraint firstItem="XZY-Fz-20K" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-157" id="OoR-M2-HRV"/>
+                            <constraint firstItem="viY-Nn-TrB" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-11.5" id="MfG-ED-pkk"/>
+                            <constraint firstItem="bOK-8J-sjo" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="66.5" id="NDk-Hl-8uK"/>
+                            <constraint firstItem="XZY-Fz-20K" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-142" id="OoR-M2-HRV"/>
                             <constraint firstItem="aOG-Y3-gyy" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" id="QQH-6C-9jf"/>
                             <constraint firstItem="2qO-SX-zYw" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="a7W-qY-LBh"/>
                             <constraint firstItem="MiO-cg-2MJ" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="aaD-gd-Mkh"/>
                             <constraint firstItem="vUw-Ae-bsc" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="dSC-7I-Tf3"/>
                             <constraint firstItem="XZY-Fz-20K" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="dUT-ew-dmh"/>
-                            <constraint firstItem="ajw-q9-rRr" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="121.5" id="gDZ-6x-nby"/>
+                            <constraint firstItem="ajw-q9-rRr" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="141.5" id="gDZ-6x-nby"/>
                             <constraint firstItem="3jv-5c-GUN" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="293" id="kYJ-6h-3P6"/>
                             <constraint firstItem="bOK-8J-sjo" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="nWv-rK-La2"/>
                             <constraint firstItem="ajw-q9-rRr" firstAttribute="centerX" secondItem="Kcp-ma-rSX" secondAttribute="centerX" id="rvl-cg-52h"/>
-                            <constraint firstItem="MiO-cg-2MJ" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-94.5" id="sWh-Dv-ZHA"/>
+                            <constraint firstItem="MiO-cg-2MJ" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="-49.5" id="sWh-Dv-ZHA"/>
                             <constraint firstItem="NwE-ET-TRJ" firstAttribute="centerY" secondItem="Kcp-ma-rSX" secondAttribute="centerY" constant="293" id="way-vz-5KB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JPB-vV-zpU"/>
@@ -295,8 +318,8 @@
                                     <constraint firstAttribute="height" constant="84" id="96g-YO-v0l"/>
                                     <constraint firstAttribute="width" constant="300" id="Q2D-rL-npA"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="58i-lZ-MqY">
@@ -304,6 +327,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0n-tX-YND">
                                 <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Next" backgroundImage="OnboardButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -337,19 +361,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDI-4x-Nuj">
-                                <rect key="frame" x="37.5" y="354.5" width="300" height="84"/>
+                                <rect key="frame" x="27.5" y="349" width="320" height="95"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="0HO-fT-JZT"/>
-                                    <constraint firstAttribute="width" constant="300" id="y1z-6v-4lk"/>
+                                    <constraint firstAttribute="height" constant="95" id="0HO-fT-JZT"/>
+                                    <constraint firstAttribute="width" constant="320" id="y1z-6v-4lk"/>
                                 </constraints>
                                 <string key="text">Using music &amp; mindfulness 
 we are going to cope with  complex emotions that are  looked down upon.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWb-T8-7yg">
                                 <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Next" backgroundImage="OnboardButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -396,9 +421,9 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will explore these emotions:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9G2-TB-SXG">
-                                <rect key="frame" x="67" y="323" width="241" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="34.5" y="320" width="306" height="27.5"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="20"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-kY-Ukl">
@@ -432,37 +457,38 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVF-qT-h03">
-                                <rect key="frame" x="292" y="61" width="42" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="294.5" y="62" width="37" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHw-J8-f7q">
-                                <rect key="frame" x="275" y="460" width="46" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="278.5" y="461" width="39" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-7X-tjP">
-                                <rect key="frame" x="203" y="223" width="61" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="208.5" y="224" width="50" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViT-h5-NEe">
-                                <rect key="frame" x="148" y="384" width="63" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="152.5" y="385" width="54.5" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDZ-Ug-HOf">
-                                <rect key="frame" x="85" y="528" width="58" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="89" y="529" width="50" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMG-uq-aKZ">
                                 <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Next" backgroundImage="OnboardButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -477,9 +503,9 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpm-gk-fnp">
-                                <rect key="frame" x="127" y="133" width="38" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="130.5" y="134" width="31" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -531,6 +557,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydZ-mO-6I1">
                                 <rect key="frame" x="71" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Open Music" backgroundImage="CTAButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -541,6 +568,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bw2-Ow-ufF">
                                 <rect key="frame" x="216" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Done" backgroundImage="OnboardButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -554,8 +582,8 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="height" constant="84" id="DXd-mR-I2R"/>
                                     <constraint firstAttribute="width" constant="300" id="trm-Nk-glO"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -584,9 +612,9 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All set! Lets get started." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4T-Qu-ks1">
-                                <rect key="frame" x="96.5" y="323.5" width="182" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="101" y="322.5" width="173" height="22"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -633,6 +661,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6I-47-TDO">
                                 <rect key="frame" x="137" y="367" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="18"/>
                                 <state key="normal" title="Begin" backgroundImage="CTAButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -648,9 +677,9 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The ripple effect!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDW-WJ-cvb">
-                                <rect key="frame" x="121.5" y="302" width="132" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="105.5" y="300.5" width="164" height="24"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="20"/>
+                                <color key="textColor" red="0.29411764709999999" green="0.43137254899999999" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -678,77 +707,99 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="oAZ-bX-6nq">
-                                <rect key="frame" x="-30" y="-27" width="443" height="735"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="oAZ-bX-6nq">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="740" id="2y8-Yr-Dbv"/>
+                                    <constraint firstAttribute="width" constant="450" id="Cy6-PV-MlC"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you feel right now?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vu-sG-dYh">
-                                <rect key="frame" x="84" y="110" width="207" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="45" y="109" width="285.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNH-O5-xud">
-                                <rect key="frame" x="32.5" y="236" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="182" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="63G-qa-cbZ"/>
                                     <constraint firstAttribute="height" constant="74" id="MgQ-cv-SVp"/>
                                 </constraints>
-                                <state key="normal" title="😭 Sad" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="😭 Sad" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelSad" id="m8D-kU-hgy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fD-U2-w6O">
-                                <rect key="frame" x="32.5" y="299" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="245" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="Ak8-ew-off"/>
                                     <constraint firstAttribute="width" constant="310" id="cUv-TX-d1a"/>
                                 </constraints>
-                                <state key="normal" title="😮 Shock" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="😮 Shock" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelShock" id="oXZ-JU-TGW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWA-oG-7fh">
-                                <rect key="frame" x="32.5" y="489" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="435" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="HW4-D0-5AZ"/>
                                     <constraint firstAttribute="width" constant="310" id="rbN-dQ-KXc"/>
                                 </constraints>
-                                <state key="normal" title="😊 Happy" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="😊 Happy" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelHappy" id="ALN-sn-m6u"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPA-MJ-lVw">
-                                <rect key="frame" x="32.5" y="551" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="497" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="PgX-Uh-VIM"/>
                                     <constraint firstAttribute="width" constant="310" id="vXl-9F-GWO"/>
                                 </constraints>
-                                <state key="normal" title="🤬 Anger" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="🤬 Anger" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelAnger" id="9Wk-SN-E8S"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHb-GL-Nj7">
-                                <rect key="frame" x="32.5" y="426" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="372" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="310" id="BI3-bg-9uV"/>
                                     <constraint firstAttribute="height" constant="74" id="EsH-KM-3PE"/>
                                 </constraints>
-                                <state key="normal" title="😍 Love" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="😍 Love" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelLove" id="4Jw-dG-g7q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPl-jg-xf2">
-                                <rect key="frame" x="32.5" y="363" width="310" height="74"/>
+                                <rect key="frame" x="32.5" y="309" width="310" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="74" id="bCE-Nq-kh1"/>
                                     <constraint firstAttribute="width" constant="310" id="flt-yc-x7S"/>
                                 </constraints>
-                                <state key="normal" title="😨 Fear" backgroundImage="emoButton"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <state key="normal" title="😨 Fear" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelFear" id="Gyy-l8-2X7"/>
                                 </connections>
@@ -758,20 +809,20 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <constraints>
                             <constraint firstItem="4vu-sG-dYh" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="00L-Ec-3hH"/>
                             <constraint firstItem="zWA-oG-7fh" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="4tB-3B-QnA"/>
-                            <constraint firstItem="rNH-O5-xud" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-60.5" id="AAb-fT-LIK"/>
+                            <constraint firstItem="rNH-O5-xud" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-114.5" id="AAb-fT-LIK"/>
                             <constraint firstItem="oAZ-bX-6nq" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="C48-BE-bst"/>
-                            <constraint firstItem="4vu-sG-dYh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-213" id="Dim-dK-NdJ"/>
+                            <constraint firstItem="4vu-sG-dYh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-211.25" id="Dim-dK-NdJ"/>
                             <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="Gtn-ig-r0e"/>
                             <constraint firstItem="oAZ-bX-6nq" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" id="LUY-T4-S3A"/>
-                            <constraint firstItem="TPl-jg-xf2" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="66.5" id="R9A-Y6-WOS"/>
+                            <constraint firstItem="TPl-jg-xf2" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="12.5" id="R9A-Y6-WOS"/>
                             <constraint firstItem="TPl-jg-xf2" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="SkC-5y-ISr"/>
                             <constraint firstItem="rNH-O5-xud" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="Tzo-zL-kCu"/>
-                            <constraint firstItem="6fD-U2-w6O" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="2.5" id="XRu-QC-PUP"/>
-                            <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="254.5" id="Zce-Ce-VzJ"/>
+                            <constraint firstItem="6fD-U2-w6O" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-51.5" id="XRu-QC-PUP"/>
+                            <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="200.5" id="Zce-Ce-VzJ"/>
                             <constraint firstItem="6fD-U2-w6O" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="iWZ-Pa-5qN"/>
-                            <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="129.5" id="oLY-JE-kZk"/>
+                            <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="75.5" id="oLY-JE-kZk"/>
                             <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="qyc-wK-xIb"/>
-                            <constraint firstItem="zWA-oG-7fh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="192.5" id="uiO-lG-mOT"/>
+                            <constraint firstItem="zWA-oG-7fh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="138.5" id="uiO-lG-mOT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GLH-xv-NH5"/>
                     </view>
@@ -788,13 +839,17 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="p0j-fk-niW">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="p0j-fk-niW">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="740" id="QlB-vC-dDj"/>
+                                    <constraint firstAttribute="width" constant="450" id="bna-r7-WJp"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an activity!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq1-VA-GYW">
-                                <rect key="frame" x="114.5" y="113" width="146" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="81.5" y="108.5" width="212.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTO-hX-1Tf">
@@ -807,7 +862,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="B9G-23-k44" kind="show" id="8eo-Pp-H3r"/>
+                                    <segue destination="QPh-w8-2yC" kind="show" identifier="activityTwo" id="2kK-iY-RGV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfj-Ul-3Wl">
@@ -820,12 +875,14 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="B9G-23-k44" kind="show" id="u8c-tD-sSJ"/>
+                                    <segue destination="QPh-w8-2yC" kind="show" identifier="activityFour" id="vQS-7J-Ge3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bc-ue-Os6">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bc-ue-Os6">
                                 <rect key="frame" x="-1" y="264" width="372" height="102"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="372" id="Frx-EV-V0T"/>
+                                    <constraint firstAttribute="height" constant="102" id="G4Q-I6-W37"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="hPF-EG-hYu"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="ssX-3W-fts"/>
                                 </constraints>
@@ -834,7 +891,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <color key="titleShadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="B9G-23-k44" kind="show" id="bHa-C6-FPG"/>
+                                    <segue destination="QPh-w8-2yC" kind="show" identifier="activityOne" id="CgJ-Fu-VEr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stroll Around" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X8-w2-YYa">
@@ -894,8 +951,8 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1px-7W-jH5">
-                                <rect key="frame" x="166.5" y="163" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="154.5" y="157" width="66.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -905,13 +962,15 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="width" constant="80" id="35f-Oy-bdw"/>
                                     <constraint firstAttribute="height" constant="30" id="6qk-3F-0Yh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zg-jP-Zwx">
                                 <rect key="frame" x="22" y="33" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="bb9-qc-Wzp" kind="show" id="0AK-Ur-AZY"/>
                                 </connections>
@@ -926,7 +985,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="B9G-23-k44" kind="show" id="mEx-aG-gBI"/>
+                                    <segue destination="QPh-w8-2yC" kind="show" identifier="activityThree" id="Gfj-UP-w81"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guided Breathing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-uI-8ZP">
@@ -977,13 +1036,13 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             <constraint firstItem="5bc-ue-Os6" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-18.5" id="d9v-xm-U7u"/>
                             <constraint firstItem="DMH-Vm-KOI" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-85" id="dYH-sr-ucs"/>
                             <constraint firstItem="uNd-Pg-Q4Q" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-5" id="eM7-PG-TL2"/>
-                            <constraint firstItem="bq1-VA-GYW" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-210" id="gDZ-SW-QCC"/>
+                            <constraint firstItem="bq1-VA-GYW" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-211.25" id="gDZ-SW-QCC"/>
                             <constraint firstItem="uTO-hX-1Tf" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2" id="gTz-h3-dKE"/>
                             <constraint firstItem="UAB-OG-J2E" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-112" id="jzN-Y1-YsT"/>
                             <constraint firstItem="5Zg-jP-Zwx" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-148.5" id="kgX-J4-NXt"/>
                             <constraint firstItem="E3X-u2-lfu" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-16" id="lG8-u1-ePF"/>
                             <constraint firstItem="LTG-Bi-uAa" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2" id="oIg-AU-keL"/>
-                            <constraint firstItem="5bc-ue-Os6" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2" id="vxn-Xr-U1V"/>
+                            <constraint firstItem="5bc-ue-Os6" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2.5" id="vxn-Xr-U1V"/>
                             <constraint firstItem="1px-7W-jH5" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-160" id="w7G-VP-YSE"/>
                             <constraint firstItem="6Su-uI-8ZP" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-80.5" id="z5h-IT-Qka"/>
                         </constraints>
@@ -1006,8 +1065,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="geF-Vy-vHn">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="geF-Vy-vHn">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="11L-ei-8cx"/>
+                                    <constraint firstAttribute="height" constant="740" id="SyA-GI-zBG"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listen to some music while doing the exercise. We will provide some prompts to help along the way." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3g-yS-wx5">
                                 <rect key="frame" x="37.5" y="291.5" width="300" height="84"/>
@@ -1015,8 +1078,8 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="width" constant="300" id="mQU-mB-yNA"/>
                                     <constraint firstAttribute="height" constant="84" id="wfA-Je-pP6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1035,7 +1098,75 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1b-eK-fX7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3796" y="89.505247376311857"/>
+            <point key="canvasLocation" x="4866" y="98"/>
+        </scene>
+        <!--Music Sel View Controller-->
+        <scene sceneID="aCT-cm-3qt">
+            <objects>
+                <viewController id="QPh-w8-2yC" customClass="MusicSelViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eOO-F9-3zZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="zUa-Fj-cHs">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="d5b-NX-2cj"/>
+                                    <constraint firstAttribute="height" constant="740" id="sZI-fF-cPk"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA7-qZ-qog">
+                                <rect key="frame" x="129.5" y="379" width="116" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="IUv-ov-xqm"/>
+                                    <constraint firstAttribute="height" constant="45" id="frq-yj-aUL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
+                                <state key="normal" title="Select Music" backgroundImage="CTAButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectMusic:" destination="QPh-w8-2yC" eventType="touchUpInside" id="SLp-6L-NL3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose your playlist for the following emotion." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MXr-0c-dEh">
+                                <rect key="frame" x="48" y="84" width="279" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="62f-3A-WWh"/>
+                                    <constraint firstAttribute="width" constant="279" id="fZW-53-6OJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCB-VV-qf3">
+                                <rect key="frame" x="160" y="203" width="55.5" height="30"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zUa-Fj-cHs" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="AN7-kP-bbg"/>
+                            <constraint firstItem="eA7-qZ-qog" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="Pi8-MJ-BwR"/>
+                            <constraint firstItem="eA7-qZ-qog" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="68" id="U7M-PH-BbU"/>
+                            <constraint firstItem="MXr-0c-dEh" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="fgY-DW-1Vh"/>
+                            <constraint firstItem="zUa-Fj-cHs" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" id="iDD-Co-sqh"/>
+                            <constraint firstItem="MCB-VV-qf3" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="-115.5" id="r4f-OQ-66o"/>
+                            <constraint firstItem="MXr-0c-dEh" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="-211.25" id="vOY-re-NH5"/>
+                            <constraint firstItem="MCB-VV-qf3" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="zxe-Pv-nVY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PhH-Tt-Igy"/>
+                    </view>
+                    <connections>
+                        <outlet property="PlaylistTitle" destination="MCB-VV-qf3" id="BgT-NA-y0B"/>
+                        <segue destination="B9G-23-k44" kind="show" identifier="startAct" id="qV1-OD-u9c"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7BO-9P-zG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3924" y="97.601199400299862"/>
         </scene>
         <!--Prompt1 View Controller-->
         <scene sceneID="JRz-9e-PoW">
@@ -1045,41 +1176,63 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="iG5-8r-oBV">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="iG5-8r-oBV">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="740" id="Yj6-df-vbZ"/>
+                                    <constraint firstAttribute="width" constant="450" id="Zbx-T0-mJg"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe to continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83q-C2-Ovw">
-                                <rect key="frame" x="119" y="597" width="137" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe to continue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83q-C2-Ovw">
+                                <rect key="frame" x="122.5" y="628" width="130.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Rubik-Light" family="Rubik Light" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="listen" translatesAutoresizingMaskIntoConstraints="NO" id="iHE-vJ-c1V">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promptBD" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-tR-fEk">
+                                <rect key="frame" x="54" y="65" width="234" height="235"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="listen" translatesAutoresizingMaskIntoConstraints="NO" id="iHE-vJ-c1V">
                                 <rect key="frame" x="139" y="118" width="97" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOl-i9-Bnh">
-                                <rect key="frame" x="164.5" y="323" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="154.5" y="320.5" width="66.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take some time to pick out familiar noises from the song." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNT-hv-TVR">
+                                <rect key="frame" x="47.5" y="366" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="9T4-lk-lW6"/>
+                                    <constraint firstAttribute="width" constant="280" id="dGW-WF-Qpu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="iHE-vJ-c1V" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" id="LWh-o5-fI8"/>
                             <constraint firstItem="fOl-i9-Bnh" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" id="SzO-wk-JAL"/>
                             <constraint firstItem="83q-C2-Ovw" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" id="UaB-Ve-9JF"/>
+                            <constraint firstItem="F2F-tR-fEk" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" constant="-16.5" id="Vfw-GA-Fhp"/>
+                            <constraint firstItem="MNT-hv-TVR" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" constant="57.5" id="XLk-XS-Wq7"/>
                             <constraint firstItem="fOl-i9-Bnh" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" id="apV-Al-Hpq"/>
                             <constraint firstItem="iG5-8r-oBV" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" id="e1g-Mc-Oio"/>
-                            <constraint firstItem="83q-C2-Ovw" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" constant="274" id="hvG-AU-Xjf"/>
+                            <constraint firstItem="MNT-hv-TVR" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" id="fSC-r0-cae"/>
+                            <constraint firstItem="83q-C2-Ovw" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" constant="304" id="hvG-AU-Xjf"/>
+                            <constraint firstItem="F2F-tR-fEk" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" constant="-151" id="kd3-fn-UOU"/>
                             <constraint firstItem="iG5-8r-oBV" firstAttribute="centerX" secondItem="xZU-ha-IdG" secondAttribute="centerX" id="y6e-RP-U4Q"/>
+                            <constraint firstItem="iHE-vJ-c1V" firstAttribute="centerY" secondItem="xZU-ha-IdG" secondAttribute="centerY" constant="-151.5" id="ypw-1e-TwC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cg0-w6-IfI"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZOd-7P-17N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4464.8000000000002" y="89.505247376311857"/>
+            <point key="canvasLocation" x="6533.6000000000004" y="97.601199400299862"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="SyJ-r4-2Lr">
@@ -1087,7 +1240,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="tN2-mp-wPl" customClass="PageViewController" customModule="Ripple" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rk2-kF-D7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4466" y="805"/>
+            <point key="canvasLocation" x="5702" y="98"/>
         </scene>
         <!--Prompt2 View Controller-->
         <scene sceneID="hon-zm-6ku">
@@ -1097,33 +1250,55 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ZMB-OG-XIG">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="ZMB-OG-XIG">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="2Ft-1T-5LG"/>
+                                    <constraint firstAttribute="height" constant="740" id="HKp-cI-cXV"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Look" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkn-0X-zGe">
-                                <rect key="frame" x="169" y="323" width="37" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="162" y="320.5" width="51" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="look" translatesAutoresizingMaskIntoConstraints="NO" id="G7j-Ha-UPC">
-                                <rect key="frame" x="119" y="148" width="136" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promptBD" translatesAutoresizingMaskIntoConstraints="NO" id="GM3-9f-e2H">
+                                <rect key="frame" x="70.5" y="76" width="234" height="235"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="look" translatesAutoresizingMaskIntoConstraints="NO" id="G7j-Ha-UPC">
+                                <rect key="frame" x="119.5" y="148" width="136" height="90"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rely on your sight to notice the details of your surroundings or specific objects." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qhe-mR-Pu0">
+                                <rect key="frame" x="47.5" y="367" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Zcc-Kf-9SW"/>
+                                    <constraint firstAttribute="height" constant="50" id="fLu-XW-6Dz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Qkn-0X-zGe" firstAttribute="centerY" secondItem="edR-Fe-y3e" secondAttribute="centerY" id="9NK-nL-69g"/>
+                            <constraint firstItem="G7j-Ha-UPC" firstAttribute="centerY" secondItem="edR-Fe-y3e" secondAttribute="centerY" constant="-140.5" id="9O9-Ni-jsg"/>
                             <constraint firstItem="Qkn-0X-zGe" firstAttribute="centerX" secondItem="edR-Fe-y3e" secondAttribute="centerX" id="DIr-Sh-WnD"/>
                             <constraint firstItem="ZMB-OG-XIG" firstAttribute="centerY" secondItem="edR-Fe-y3e" secondAttribute="centerY" id="La4-UX-yoP"/>
+                            <constraint firstItem="G7j-Ha-UPC" firstAttribute="centerX" secondItem="edR-Fe-y3e" secondAttribute="centerX" id="O9U-lg-V2m"/>
                             <constraint firstItem="ZMB-OG-XIG" firstAttribute="centerX" secondItem="edR-Fe-y3e" secondAttribute="centerX" id="Sws-5I-ngp"/>
+                            <constraint firstItem="Qhe-mR-Pu0" firstAttribute="centerX" secondItem="edR-Fe-y3e" secondAttribute="centerX" id="dis-Hc-nWj"/>
+                            <constraint firstItem="Qhe-mR-Pu0" firstAttribute="centerY" secondItem="edR-Fe-y3e" secondAttribute="centerY" constant="58.5" id="gpI-SN-bYi"/>
+                            <constraint firstItem="GM3-9f-e2H" firstAttribute="centerY" secondItem="edR-Fe-y3e" secondAttribute="centerY" constant="-140" id="wOW-SZ-fjx"/>
+                            <constraint firstItem="GM3-9f-e2H" firstAttribute="centerX" secondItem="edR-Fe-y3e" secondAttribute="centerX" id="wbx-Gt-VSx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="l0k-xT-Btq"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tm0-8K-j3s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5144.8000000000002" y="89.505247376311857"/>
+            <point key="canvasLocation" x="7252" y="97.601199400299862"/>
         </scene>
         <!--Prompt3 View Controller-->
         <scene sceneID="aJF-Yr-7lh">
@@ -1133,33 +1308,55 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-QK-FsK">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-QK-FsK">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="740" id="EPi-GB-fbE"/>
+                                    <constraint firstAttribute="width" constant="450" id="tAg-4i-Hse"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHR-s5-PIo">
-                                <rect key="frame" x="164" y="323" width="47" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="155.5" y="320.5" width="64.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="73r-1y-lm8">
-                                <rect key="frame" x="142" y="150" width="80" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promptBD" translatesAutoresizingMaskIntoConstraints="NO" id="0qg-gS-T82">
+                                <rect key="frame" x="65" y="86" width="234" height="235"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="73r-1y-lm8">
+                                <rect key="frame" x="142" y="155.5" width="91" height="95"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use your hands to feel a texture from your surroundings or of a specific object." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlP-h7-sug">
+                                <rect key="frame" x="47.5" y="367" width="280" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="TME-7t-jTG"/>
+                                    <constraint firstAttribute="height" constant="50" id="hm0-n7-XfV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IHR-s5-PIo" firstAttribute="centerX" secondItem="DRd-Lc-I8g" secondAttribute="centerX" id="Ap5-rE-F2B"/>
+                            <constraint firstItem="73r-1y-lm8" firstAttribute="centerX" secondItem="DRd-Lc-I8g" secondAttribute="centerX" id="C00-rY-iES"/>
                             <constraint firstItem="W3f-QK-FsK" firstAttribute="centerX" secondItem="DRd-Lc-I8g" secondAttribute="centerX" id="DWD-fs-tKY"/>
                             <constraint firstItem="IHR-s5-PIo" firstAttribute="centerY" secondItem="DRd-Lc-I8g" secondAttribute="centerY" id="O6l-Zu-ZTc"/>
                             <constraint firstItem="W3f-QK-FsK" firstAttribute="centerY" secondItem="DRd-Lc-I8g" secondAttribute="centerY" id="T40-y9-nIh"/>
+                            <constraint firstItem="0qg-gS-T82" firstAttribute="centerY" secondItem="DRd-Lc-I8g" secondAttribute="centerY" constant="-130" id="YZE-jK-cyp"/>
+                            <constraint firstItem="zlP-h7-sug" firstAttribute="centerX" secondItem="DRd-Lc-I8g" secondAttribute="centerX" id="h4o-e8-bAn"/>
+                            <constraint firstItem="zlP-h7-sug" firstAttribute="centerY" secondItem="DRd-Lc-I8g" secondAttribute="centerY" constant="58.5" id="hmn-3N-oll"/>
+                            <constraint firstItem="0qg-gS-T82" firstAttribute="centerX" secondItem="DRd-Lc-I8g" secondAttribute="centerX" constant="-5.5" id="rkN-Dh-PmK"/>
+                            <constraint firstItem="73r-1y-lm8" firstAttribute="centerY" secondItem="DRd-Lc-I8g" secondAttribute="centerY" constant="-130.5" id="zY3-oP-qvd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xbL-Hx-0ly"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaH-Kj-mAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5836" y="90.404797601199405"/>
+            <point key="canvasLocation" x="7988" y="97.601199400299862"/>
         </scene>
         <!--Prompt4 View Controller-->
         <scene sceneID="Z9a-vi-LTZ">
@@ -1169,42 +1366,65 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Zcy-PZ-e2O">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="Zcy-PZ-e2O">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="740" id="4XQ-p2-2L4"/>
+                                    <constraint firstAttribute="width" constant="450" id="ZVk-16-NhL"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promptBD" translatesAutoresizingMaskIntoConstraints="NO" id="IXb-3S-xFt">
+                                <rect key="frame" x="70.5" y="76" width="234" height="235"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEf-Zh-LTy">
-                                <rect key="frame" x="166.5" y="323" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="158.5" y="320.5" width="58.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxn-Ye-JtK">
                                 <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="17"/>
                                 <state key="normal" title="Done" backgroundImage="CTAButton"/>
                                 <connections>
                                     <segue destination="c74-zj-wdf" kind="show" id="lrp-Lg-NPf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smell" translatesAutoresizingMaskIntoConstraints="NO" id="w2p-EM-Noc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smell" translatesAutoresizingMaskIntoConstraints="NO" id="w2p-EM-Noc">
                                 <rect key="frame" x="148" y="117" width="79" height="153"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take some time to appreciate the aromas that come from your environment or a specific object." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvL-JS-wz7">
+                                <rect key="frame" x="47.5" y="371" width="280" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="YTF-c1-4bw"/>
+                                    <constraint firstAttribute="height" constant="60" id="ZEc-uF-wCO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="xxn-Ye-JtK" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" constant="278.5" id="0vO-kt-5pH"/>
                             <constraint firstItem="xxn-Ye-JtK" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="1TO-lz-HEl"/>
+                            <constraint firstItem="IXb-3S-xFt" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="1yV-Cu-OkU"/>
+                            <constraint firstItem="rvL-JS-wz7" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="696-qV-lUR"/>
+                            <constraint firstItem="IXb-3S-xFt" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" constant="-140" id="Av7-ND-UyB"/>
+                            <constraint firstItem="w2p-EM-Noc" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" constant="-140" id="DVX-ZH-YhK"/>
                             <constraint firstItem="qEf-Zh-LTy" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="FRS-MF-61S"/>
                             <constraint firstItem="Zcy-PZ-e2O" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="GoT-7w-2bR"/>
                             <constraint firstItem="qEf-Zh-LTy" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" id="YcR-6G-2fi"/>
                             <constraint firstItem="Zcy-PZ-e2O" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" id="bss-vf-y06"/>
+                            <constraint firstItem="w2p-EM-Noc" firstAttribute="centerX" secondItem="vb8-cm-1Sf" secondAttribute="centerX" id="mTc-7E-EZJ"/>
+                            <constraint firstItem="rvL-JS-wz7" firstAttribute="centerY" secondItem="vb8-cm-1Sf" secondAttribute="centerY" constant="67.5" id="pIP-tq-9Tc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3hr-gz-Wog"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKD-Om-K6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6544.8000000000002" y="89.505247376311857"/>
+            <point key="canvasLocation" x="8733.6000000000004" y="97.601199400299862"/>
         </scene>
         <!--Relfection View Controller-->
         <scene sceneID="Qfi-SZ-aYt">
@@ -1214,21 +1434,22 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-Sw-Lc2">
-                                <rect key="frame" x="-11.5" y="-12" width="398" height="691"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="ZRq-Sw-Lc2">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="691" id="GGj-z7-0Q1"/>
-                                    <constraint firstAttribute="width" constant="398" id="gaZ-2e-77Q"/>
+                                    <constraint firstAttribute="width" constant="450" id="fXr-1P-Dzg"/>
+                                    <constraint firstAttribute="height" constant="740" id="jgS-Qx-kWg"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reflect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7PJ-Jt-m6c">
-                                <rect key="frame" x="160.5" y="243" width="54" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="147.5" y="240" width="80" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hk-i8-5X5">
                                 <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
                                 <state key="normal" title="Done" backgroundImage="CTAButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -1236,6 +1457,17 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <segue destination="K41-Id-1aw" kind="show" id="AwW-uo-kqZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZZ-tr-Yqd">
+                                <rect key="frame" x="47.5" y="308.5" width="280" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="BPa-ET-uut"/>
+                                    <constraint firstAttribute="width" constant="280" id="r6V-7F-hhE"/>
+                                </constraints>
+                                <string key="text">Take some time to reflect, you could write this down or simply have a conversation with someone else. Reflecting helps to understand the bigger picture.</string>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -1243,6 +1475,8 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             <constraint firstItem="7PJ-Jt-m6c" firstAttribute="centerY" secondItem="gae-J7-cH1" secondAttribute="centerY" constant="-80" id="ELz-To-Dxh"/>
                             <constraint firstItem="ZRq-Sw-Lc2" firstAttribute="centerX" secondItem="gae-J7-cH1" secondAttribute="centerX" id="UPt-sD-dfo"/>
                             <constraint firstItem="4Hk-i8-5X5" firstAttribute="centerX" secondItem="gae-J7-cH1" secondAttribute="centerX" id="Wvh-mh-5Bt"/>
+                            <constraint firstItem="oZZ-tr-Yqd" firstAttribute="centerX" secondItem="gae-J7-cH1" secondAttribute="centerX" id="d99-Pn-h4z"/>
+                            <constraint firstItem="oZZ-tr-Yqd" firstAttribute="centerY" secondItem="gae-J7-cH1" secondAttribute="centerY" constant="37.5" id="dq2-qy-d5e"/>
                             <constraint firstItem="7PJ-Jt-m6c" firstAttribute="centerY" secondItem="gae-J7-cH1" secondAttribute="centerY" constant="-80" id="tnE-OC-UpQ"/>
                             <constraint firstItem="7PJ-Jt-m6c" firstAttribute="centerX" secondItem="gae-J7-cH1" secondAttribute="centerX" id="u0S-9h-N4A"/>
                             <constraint firstItem="4Hk-i8-5X5" firstAttribute="centerY" secondItem="gae-J7-cH1" secondAttribute="centerY" constant="278.5" id="yak-RJ-Q9V"/>
@@ -1252,7 +1486,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nDr-HX-ZP2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7224.8000000000002" y="89.505247376311857"/>
+            <point key="canvasLocation" x="9461.6000000000004" y="97.601199400299862"/>
         </scene>
         <!--Reassure View Controller-->
         <scene sceneID="JeS-D1-Tac">
@@ -1262,12 +1496,22 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient" translatesAutoresizingMaskIntoConstraints="NO" id="PhV-Dg-bpk">
-                                <rect key="frame" x="-23.5" y="-38.5" width="422" height="744"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGrad" translatesAutoresizingMaskIntoConstraints="NO" id="PhV-Dg-bpk">
+                                <rect key="frame" x="-37.5" y="-36.5" width="450" height="740"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="450" id="iBj-1f-6kG"/>
+                                    <constraint firstAttribute="height" constant="740" id="kAQ-1R-m4v"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reassure" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxx-JK-1k1">
-                                <rect key="frame" x="152" y="323" width="71" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxx-JK-1k1">
+                                <rect key="frame" x="47.5" y="301" width="280" height="65.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="Kc1-LH-5Px"/>
+                                </constraints>
+                                <string key="text">That’s a step in the right direction!
+Like other things with more practice comes more reward.
+</string>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1287,14 +1531,14 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AM-HT-Hjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7916" y="89.505247376311857"/>
+            <point key="canvasLocation" x="10256.799999999999" y="97.601199400299862"/>
         </scene>
     </scenes>
     <resources>
         <image name="CTAButton" width="101" height="38"/>
         <image name="OnboardButton" width="101" height="38"/>
         <image name="actButton" width="372" height="103"/>
-        <image name="blueGradient" width="422" height="744"/>
+        <image name="blueGrad" width="414" height="736"/>
         <image name="emoButton" width="372" height="103"/>
         <image name="launchScreen" width="414" height="736"/>
         <image name="life" width="178" height="178"/>
@@ -1303,11 +1547,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
         <image name="note1" width="42" height="59"/>
         <image name="note2" width="59" height="54"/>
         <image name="note3" width="80" height="95"/>
+        <image name="promptBD" width="234" height="235"/>
         <image name="smell" width="79" height="153"/>
         <image name="touch" width="91" height="95"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="u8c-tD-sSJ"/>
+        <segue reference="vQS-7J-Ge3"/>
         <segue reference="4Jw-dG-g7q"/>
         <segue reference="0AK-Ur-AZY"/>
         <segue reference="PqX-9J-66B"/>

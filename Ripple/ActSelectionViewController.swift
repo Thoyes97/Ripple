@@ -23,5 +23,30 @@ class ActSelectionViewController: UIViewController, MPMediaPickerControllerDeleg
 wordLabel.text = emotion
         // Do any additional setup after loading the view.
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "activityOne" {
+            let controller2 = segue.destination as! MusicSelViewController
+            controller2.emotionTitle = (wordLabel.text ?? nil)!
+
+        }
+        else if segue.identifier == "activityTwo"{
+            let controller2 = segue.destination as! MusicSelViewController
+            controller2.emotionTitle = (wordLabel.text ?? nil)!
+
+        }
+        else if segue.identifier == "activityThreer"{
+            let controller2 = segue.destination as! MusicSelViewController
+            controller2.emotionTitle = (wordLabel.text ?? nil)!
+
+        }
+        else if segue.identifier == "activityFour"{
+            let controller2 = segue.destination as! MusicSelViewController
+            controller2.emotionTitle = (wordLabel.text ?? nil)!
+
+        }
+        else{
+            return
+        }
+    }
 }
+

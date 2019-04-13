@@ -15,8 +15,8 @@ class LGreetingViewController: UIViewController {
     //code retrieved from https://www.youtube.com/watch?v=GA8K1YyAM5E&t=440s
     var welcomeBackLabel: UILabel = {
         let label = UILabel()
-        label.textColor = .blue
-        label.font = UIFont.systemFont(ofSize: 28)
+        label.textColor = UIColor(red: 108/255, green: 193/255, blue: 248/255, alpha: 1)
+        label.font = UIFont(name: "OpenSans-SemiBold", size: 20)
         label.translatesAutoresizingMaskIntoConstraints = false
         label.alpha = 0
         return label
@@ -31,7 +31,7 @@ class LGreetingViewController: UIViewController {
         welcomeBackLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         loadUserData()
 //         code retrieved from https://stackoverflow.com/questions/26379462/how-do-i-perform-an-auto-segue-in-xcode-6-using-swift/29006810 - create a timer that calls a function to preform a segue
-        let timer = Timer.scheduledTimer(timeInterval: 8, target: self, selector: #selector(autoSegue), userInfo: nil, repeats: false)
+        let timer = Timer.scheduledTimer(timeInterval: 4, target: self, selector: #selector(autoSegue), userInfo: nil, repeats: false)
         
         // Do any additional setup after loading the view.
     }

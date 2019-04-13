@@ -48,8 +48,8 @@
 		3635CDC7225D150A005F6E4C /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */; };
 		3635CDC8225D150A005F6E4C /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDBE225D150A005F6E4C /* Rubik-Black.ttf */; };
 		3635CDCA225D150A005F6E4C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */; };
-		3635CDCB225D16E3005F6E4C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B922565A9A00510E92 /* Info.plist */; };
-		3635CDCC225D182C005F6E4C /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */; };
+		366ADC86225D2B200040AE5C /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 366ADC85225D2B200040AE5C /* Rubik-Light.ttf */; };
+		366ADC8A225D340F0040AE5C /* MusicSelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366ADC89225D340F0040AE5C /* MusicSelViewController.swift */; };
 		36E966AE22565A9800510E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AD22565A9800510E92 /* AppDelegate.swift */; };
 		36E966B022565A9800510E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E966AF22565A9800510E92 /* ViewController.swift */; };
 		36E966B322565A9800510E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E966B122565A9800510E92 /* Main.storyboard */; };
@@ -101,7 +101,8 @@
 		3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
 		3635CDBE225D150A005F6E4C /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
 		3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
-		3635CDCD225D182C005F6E4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Rubik-Light.ttf"; sourceTree = "<group>"; };
+		366ADC85225D2B200040AE5C /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		366ADC89225D340F0040AE5C /* MusicSelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelViewController.swift; sourceTree = "<group>"; };
 		36E966AA22565A9800510E92 /* Ripple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ripple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E966AD22565A9800510E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E966AF22565A9800510E92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -133,7 +134,7 @@
 				3635CDB8225D1509005F6E4C /* Rubik-Bold.ttf */,
 				3635CDBC225D1509005F6E4C /* Rubik-BoldItalic.ttf */,
 				3635CDBA225D1509005F6E4C /* Rubik-Italic.ttf */,
-				3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */,
+				366ADC85225D2B200040AE5C /* Rubik-Light.ttf */,
 				3635CDBD225D150A005F6E4C /* Rubik-LightItalic.ttf */,
 				3635CDC0225D150A005F6E4C /* Rubik-Medium.ttf */,
 				3635CDB9225D1509005F6E4C /* Rubik-MediumItalic.ttf */,
@@ -191,6 +192,7 @@
 				3635CD5C225A7EAD005F6E4C /* IntroViewController.swift */,
 				3635CD66225A8248005F6E4C /* EmoSelectionViewController.swift */,
 				3635CD68225A8283005F6E4C /* ActSelectionViewController.swift */,
+				366ADC89225D340F0040AE5C /* MusicSelViewController.swift */,
 				3635CD6A225A8299005F6E4C /* ActBeginViewController.swift */,
 				3635CD6C225A82A9005F6E4C /* Prompt1ViewController.swift */,
 				3635CD6E225A82BD005F6E4C /* Prompt2ViewController.swift */,
@@ -289,7 +291,6 @@
 				3635CDB3225D147A005F6E4C /* OpenSans-LightItalic.ttf in Resources */,
 				3635CDB5225D1480005F6E4C /* OpenSans-SemiBold.ttf in Resources */,
 				3635CDC6225D150A005F6E4C /* Rubik-BoldItalic.ttf in Resources */,
-				3635CDCC225D182C005F6E4C /* Rubik-Light.ttf in Resources */,
 				3635CDC2225D150A005F6E4C /* Rubik-Bold.ttf in Resources */,
 				3635CDC1225D150A005F6E4C /* Rubik-BlackItalic.ttf in Resources */,
 				3635CD4F225A7A5A005F6E4C /* GoogleService-Info.plist in Resources */,
@@ -297,6 +298,7 @@
 				3635CDB1225D1474005F6E4C /* OpenSans-Italic.ttf in Resources */,
 				3635CDAD225D1466005F6E4C /* OpenSans-Bold.ttf in Resources */,
 				3635CDB4225D147D005F6E4C /* OpenSans-Regular.ttf in Resources */,
+				366ADC86225D2B200040AE5C /* Rubik-Light.ttf in Resources */,
 				3635CDC3225D150A005F6E4C /* Rubik-MediumItalic.ttf in Resources */,
 				3635CDCA225D150A005F6E4C /* Rubik-Medium.ttf in Resources */,
 				3635CDC8225D150A005F6E4C /* Rubik-Black.ttf in Resources */,
@@ -306,7 +308,6 @@
 				3635CDC5225D150A005F6E4C /* Rubik-Regular.ttf in Resources */,
 				3635CDAF225D146E005F6E4C /* OpenSans-ExtraBold.ttf in Resources */,
 				3635CDB2225D1477005F6E4C /* OpenSans-Light.ttf in Resources */,
-				3635CDCB225D16E3005F6E4C /* Info.plist in Resources */,
 				36E966B322565A9800510E92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +391,7 @@
 				3635CD57225A7D4F005F6E4C /* HomeViewController.swift in Sources */,
 				3635CD67225A8248005F6E4C /* EmoSelectionViewController.swift in Sources */,
 				3635CD61225A7ED4005F6E4C /* FocusViewController.swift in Sources */,
+				366ADC8A225D340F0040AE5C /* MusicSelViewController.swift in Sources */,
 				3635CD5B225A7E79005F6E4C /* SGreetingViewController.swift in Sources */,
 				3635CD63225A7EFD005F6E4C /* OnboardingEndViewController.swift in Sources */,
 				3635CD75225A82EA005F6E4C /* RelfectionViewController.swift in Sources */,
@@ -400,15 +402,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3635CDCE225D182C005F6E4C /* Rubik-Light.ttf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3635CDCD225D182C005F6E4C /* en */,
-			);
-			name = "Rubik-Light.ttf";
-			path = ../../../../../../../Rubik;
-			sourceTree = "<group>";
-		};
 		36E966B122565A9800510E92 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
