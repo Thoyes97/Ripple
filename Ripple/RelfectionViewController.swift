@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import MediaPlayer
 
-class RelfectionViewController: UIViewController {
+class RelfectionViewController: UIViewController, MPMediaPickerControllerDelegate {
 
+  var musicPlayer = MPMusicPlayerController.systemMusicPlayer
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        musicPlayer.stop()
         // Do any additional setup after loading the view.
     }
     

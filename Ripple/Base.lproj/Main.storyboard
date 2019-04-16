@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uG7-hl-Vgd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uG7-hl-Vgd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -427,61 +427,59 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-kY-Ukl">
-                                <rect key="frame" x="261" y="61" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="249" y="47.5" width="50" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😍" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emc-eg-Srg">
-                                <rect key="frame" x="244" y="460" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="232" y="446.5" width="50" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😮" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMB-4I-3CH">
-                                <rect key="frame" x="172" y="223" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="201" y="210" width="50" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0ZQ-yB-GQc"/>
+                                    <constraint firstAttribute="height" constant="47" id="Xoz-4z-jwv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6By-PD-uFd">
-                                <rect key="frame" x="117" y="384" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="105" y="370.5" width="50" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤬" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcj-cz-MLZ">
-                                <rect key="frame" x="54" y="528" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="42" y="514.5" width="50" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uVF-qT-h03">
-                                <rect key="frame" x="294.5" y="62" width="37" height="25"/>
+                                <rect key="frame" x="256" y="96" width="37" height="25"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Love" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHw-J8-f7q">
-                                <rect key="frame" x="278.5" y="461" width="39" height="25"/>
+                                <rect key="frame" x="238" y="496" width="39" height="25"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-7X-tjP">
-                                <rect key="frame" x="208.5" y="224" width="50" height="25"/>
+                                <rect key="frame" x="201" y="257" width="50" height="25"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViT-h5-NEe">
-                                <rect key="frame" x="152.5" y="385" width="54.5" height="25"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDZ-Ug-HOf">
-                                <rect key="frame" x="89" y="529" width="50" height="25"/>
+                                <rect key="frame" x="105" y="418" width="54.5" height="25"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -497,13 +495,19 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😭" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-Ji-8aC">
-                                <rect key="frame" x="96" y="133" width="26" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <rect key="frame" x="84" y="119.5" width="50" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpm-gk-fnp">
-                                <rect key="frame" x="130.5" y="134" width="31" height="25"/>
+                                <rect key="frame" x="94" y="169" width="31" height="25"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDZ-Ug-HOf">
+                                <rect key="frame" x="42" y="562" width="50" height="25"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="18"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -511,41 +515,41 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="eDZ-Ug-HOf" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="208" id="6Tm-q3-DM1"/>
+                            <constraint firstItem="eDZ-Ug-HOf" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="241" id="6Tm-q3-DM1"/>
                             <constraint firstItem="3Xn-kY-Ukl" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-259" id="9IO-76-3zT"/>
-                            <constraint firstItem="3d9-7X-tjP" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="46" id="BJZ-1M-Y2b"/>
+                            <constraint firstItem="3d9-7X-tjP" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="38.5" id="BJZ-1M-Y2b"/>
                             <constraint firstItem="3Xn-kY-Ukl" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="86.5" id="Ehe-1T-P7P"/>
-                            <constraint firstItem="3d9-7X-tjP" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-97" id="F7G-wr-gg1"/>
+                            <constraint firstItem="3d9-7X-tjP" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-64" id="F7G-wr-gg1"/>
                             <constraint firstItem="hMG-uq-aKZ" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" id="G6E-Vt-kQ8"/>
-                            <constraint firstItem="ViT-h5-NEe" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="64" id="MTt-R0-j8P"/>
-                            <constraint firstItem="xHw-J8-f7q" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="110.5" id="NCl-v8-ocf"/>
+                            <constraint firstItem="ViT-h5-NEe" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="97" id="MTt-R0-j8P"/>
+                            <constraint firstItem="xHw-J8-f7q" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="70" id="NCl-v8-ocf"/>
                             <constraint firstItem="hMG-uq-aKZ" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="278.5" id="NWe-fA-PX0"/>
-                            <constraint firstItem="hMB-4I-3CH" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-2.5" id="QML-zK-D6d"/>
+                            <constraint firstItem="hMB-4I-3CH" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="38.5" id="QML-zK-D6d"/>
                             <constraint firstItem="3Ha-Ji-8aC" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-78.5" id="QMV-ed-bzn"/>
                             <constraint firstItem="emc-eg-Srg" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="69.5" id="W0O-ze-54S"/>
                             <constraint firstItem="3Ha-Ji-8aC" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-187" id="WgU-Fc-nPz"/>
                             <constraint firstItem="6By-PD-uFd" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="64" id="XPr-Rf-YCC"/>
-                            <constraint firstItem="uVF-qT-h03" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="125.5" id="YUu-Sj-MFr"/>
-                            <constraint firstItem="Lpm-gk-fnp" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-41.5" id="aRY-De-9Nx"/>
-                            <constraint firstItem="hMB-4I-3CH" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-97" id="bXv-bW-LQP"/>
-                            <constraint firstItem="ViT-h5-NEe" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-8" id="bjv-d3-FWg"/>
+                            <constraint firstItem="uVF-qT-h03" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="87" id="YUu-Sj-MFr"/>
+                            <constraint firstItem="Lpm-gk-fnp" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-78" id="aRY-De-9Nx"/>
+                            <constraint firstItem="hMB-4I-3CH" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-100" id="bXv-bW-LQP"/>
+                            <constraint firstItem="ViT-h5-NEe" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-55.25" id="bjv-d3-FWg"/>
                             <constraint firstItem="emc-eg-Srg" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="140" id="epc-Xi-rnK"/>
-                            <constraint firstItem="xHw-J8-f7q" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="140" id="eyh-DP-VZa"/>
+                            <constraint firstItem="xHw-J8-f7q" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="175" id="eyh-DP-VZa"/>
                             <constraint firstItem="9G2-TB-SXG" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" id="fxN-Yn-bCz"/>
                             <constraint firstItem="9G2-TB-SXG" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" id="ibk-41-xr1"/>
                             <constraint firstItem="6By-PD-uFd" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-57.5" id="jRH-hh-Lfd"/>
                             <constraint firstItem="qcj-cz-MLZ" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-120.5" id="kYQ-Mi-K29"/>
                             <constraint firstItem="qcj-cz-MLZ" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="208" id="lZh-Zb-0gi"/>
-                            <constraint firstItem="uVF-qT-h03" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-259" id="mTN-Sk-hTt"/>
-                            <constraint firstItem="eDZ-Ug-HOf" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-73.5" id="qlQ-mj-UI8"/>
-                            <constraint firstItem="Lpm-gk-fnp" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-187" id="uBJ-2O-xkq"/>
+                            <constraint firstItem="uVF-qT-h03" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-225" id="mTN-Sk-hTt"/>
+                            <constraint firstItem="eDZ-Ug-HOf" firstAttribute="centerX" secondItem="Rm0-m0-K8T" secondAttribute="centerX" constant="-120.5" id="qlQ-mj-UI8"/>
+                            <constraint firstItem="Lpm-gk-fnp" firstAttribute="centerY" secondItem="Rm0-m0-K8T" secondAttribute="centerY" constant="-152" id="uBJ-2O-xkq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hCR-5P-Zyh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pqr-Tt-5Vf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3095" y="-625"/>
+            <point key="canvasLocation" x="3093.5999999999999" y="-625.63718140929541"/>
         </scene>
         <!--Mus Curation View Controller-->
         <scene sceneID="0Sb-gX-bk7">
@@ -666,14 +670,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bb9-qc-Wzp" kind="show" id="l94-zx-A98"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E46-lv-1wh">
-                                <rect key="frame" x="28.5" y="32.5" width="48" height="30"/>
-                                <state key="normal" title="Logout"/>
-                                <connections>
-                                    <action selector="logOutAction:" destination="fQc-GD-TeQ" eventType="touchUpInside" id="ohf-XV-a5T"/>
+                                    <segue destination="bb9-qc-Wzp" kind="showDetail" id="l94-zx-A98"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The ripple effect!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDW-WJ-cvb">
@@ -682,14 +679,28 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <color key="textColor" red="0.29411764709999999" green="0.43137254899999999" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E46-lv-1wh">
+                                <rect key="frame" x="8.5" y="21.5" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1AO-Jb-zRe"/>
+                                    <constraint firstAttribute="width" constant="80" id="htq-pP-zls"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="Logout" backgroundImage="logoutButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="logOutAction:" destination="fQc-GD-TeQ" eventType="touchUpInside" id="ohf-XV-a5T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="G6I-47-TDO" firstAttribute="centerY" secondItem="yvH-gE-TgL" secondAttribute="centerY" constant="52.5" id="90q-NK-4Ak"/>
                             <constraint firstItem="G6I-47-TDO" firstAttribute="centerX" secondItem="yvH-gE-TgL" secondAttribute="centerX" id="DsN-Fd-NWD"/>
                             <constraint firstItem="PDW-WJ-cvb" firstAttribute="centerY" secondItem="yvH-gE-TgL" secondAttribute="centerY" constant="-21" id="Ltz-bf-Olr"/>
-                            <constraint firstItem="E46-lv-1wh" firstAttribute="centerY" secondItem="yvH-gE-TgL" secondAttribute="centerY" constant="-285.80000000000001" id="WfJ-oN-qpN"/>
-                            <constraint firstItem="E46-lv-1wh" firstAttribute="centerX" secondItem="yvH-gE-TgL" secondAttribute="centerX" constant="-135" id="ZMX-Zt-Flk"/>
+                            <constraint firstItem="E46-lv-1wh" firstAttribute="centerY" secondItem="yvH-gE-TgL" secondAttribute="centerY" constant="-294.5" id="WfJ-oN-qpN"/>
+                            <constraint firstItem="E46-lv-1wh" firstAttribute="centerX" secondItem="yvH-gE-TgL" secondAttribute="centerX" constant="-139" id="ZMX-Zt-Flk"/>
                             <constraint firstItem="PDW-WJ-cvb" firstAttribute="centerX" secondItem="yvH-gE-TgL" secondAttribute="centerX" id="yM3-fA-juG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rhy-lM-DxS"/>
@@ -697,7 +708,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tyt-6u-8lx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1655" y="92"/>
+            <point key="canvasLocation" x="1653.5999999999999" y="91.304347826086968"/>
         </scene>
         <!--Emo Selection View Controller-->
         <scene sceneID="GLD-hb-TZr">
@@ -715,18 +726,18 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you feel right now?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vu-sG-dYh">
-                                <rect key="frame" x="45" y="109" width="285.5" height="26.5"/>
+                                <rect key="frame" x="45" y="109.5" width="285.5" height="26"/>
                                 <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNH-O5-xud">
-                                <rect key="frame" x="32.5" y="182" width="310" height="74"/>
+                                <rect key="frame" x="-3" y="183.5" width="381" height="90.000000000000028"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="310" id="63G-qa-cbZ"/>
-                                    <constraint firstAttribute="height" constant="74" id="MgQ-cv-SVp"/>
+                                    <constraint firstAttribute="width" constant="381" id="63G-qa-cbZ"/>
+                                    <constraint firstAttribute="height" constant="90" id="MgQ-cv-SVp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
                                 <state key="normal" title="😭 Sad" backgroundImage="emoButton">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -735,12 +746,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fD-U2-w6O">
-                                <rect key="frame" x="32.5" y="245" width="310" height="74"/>
+                                <rect key="frame" x="-3" y="261" width="381" height="90.000000000000028"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="Ak8-ew-off"/>
-                                    <constraint firstAttribute="width" constant="310" id="cUv-TX-d1a"/>
+                                    <constraint firstAttribute="height" constant="90" id="Ak8-ew-off"/>
+                                    <constraint firstAttribute="width" constant="381" id="cUv-TX-d1a"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
                                 <state key="normal" title="😮 Shock" backgroundImage="emoButton">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -749,12 +760,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWA-oG-7fh">
-                                <rect key="frame" x="32.5" y="435" width="310" height="74"/>
+                                <rect key="frame" x="-3" y="494" width="381" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="HW4-D0-5AZ"/>
-                                    <constraint firstAttribute="width" constant="310" id="rbN-dQ-KXc"/>
+                                    <constraint firstAttribute="height" constant="90" id="HW4-D0-5AZ"/>
+                                    <constraint firstAttribute="width" constant="381" id="rbN-dQ-KXc"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
                                 <state key="normal" title="😊 Happy" backgroundImage="emoButton">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -762,27 +773,13 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelHappy" id="ALN-sn-m6u"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPA-MJ-lVw">
-                                <rect key="frame" x="32.5" y="497" width="310" height="74"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="PgX-Uh-VIM"/>
-                                    <constraint firstAttribute="width" constant="310" id="vXl-9F-GWO"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
-                                <state key="normal" title="🤬 Anger" backgroundImage="emoButton">
-                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelAnger" id="9Wk-SN-E8S"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHb-GL-Nj7">
-                                <rect key="frame" x="32.5" y="372" width="310" height="74"/>
+                                <rect key="frame" x="-3" y="415" width="381" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="310" id="BI3-bg-9uV"/>
-                                    <constraint firstAttribute="height" constant="74" id="EsH-KM-3PE"/>
+                                    <constraint firstAttribute="width" constant="381" id="BI3-bg-9uV"/>
+                                    <constraint firstAttribute="height" constant="90" id="EsH-KM-3PE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
                                 <state key="normal" title="😍 Love" backgroundImage="emoButton">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -791,12 +788,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPl-jg-xf2">
-                                <rect key="frame" x="32.5" y="309" width="310" height="74"/>
+                                <rect key="frame" x="-3" y="338" width="381" height="90.000000000000028"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="bCE-Nq-kh1"/>
-                                    <constraint firstAttribute="width" constant="310" id="flt-yc-x7S"/>
+                                    <constraint firstAttribute="height" constant="90" id="bCE-Nq-kh1"/>
+                                    <constraint firstAttribute="width" constant="381" id="flt-yc-x7S"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="21"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
                                 <state key="normal" title="😨 Fear" backgroundImage="emoButton">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -804,25 +801,39 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <segue destination="9vD-FR-IxN" kind="show" identifier="feelFear" id="Gyy-l8-2X7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPA-MJ-lVw">
+                                <rect key="frame" x="-3" y="571" width="381" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="PgX-Uh-VIM"/>
+                                    <constraint firstAttribute="width" constant="381" id="vXl-9F-GWO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="28"/>
+                                <state key="normal" title="🤬 Anger" backgroundImage="emoButton">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9vD-FR-IxN" kind="show" identifier="feelAnger" id="9Wk-SN-E8S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4vu-sG-dYh" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="00L-Ec-3hH"/>
                             <constraint firstItem="zWA-oG-7fh" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="4tB-3B-QnA"/>
-                            <constraint firstItem="rNH-O5-xud" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-114.5" id="AAb-fT-LIK"/>
+                            <constraint firstItem="rNH-O5-xud" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-105" id="AAb-fT-LIK"/>
                             <constraint firstItem="oAZ-bX-6nq" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="C48-BE-bst"/>
                             <constraint firstItem="4vu-sG-dYh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-211.25" id="Dim-dK-NdJ"/>
                             <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="Gtn-ig-r0e"/>
                             <constraint firstItem="oAZ-bX-6nq" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" id="LUY-T4-S3A"/>
-                            <constraint firstItem="TPl-jg-xf2" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="12.5" id="R9A-Y6-WOS"/>
+                            <constraint firstItem="TPl-jg-xf2" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="49.5" id="R9A-Y6-WOS"/>
                             <constraint firstItem="TPl-jg-xf2" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="SkC-5y-ISr"/>
                             <constraint firstItem="rNH-O5-xud" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="Tzo-zL-kCu"/>
-                            <constraint firstItem="6fD-U2-w6O" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-51.5" id="XRu-QC-PUP"/>
-                            <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="200.5" id="Zce-Ce-VzJ"/>
+                            <constraint firstItem="6fD-U2-w6O" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="-27.5" id="XRu-QC-PUP"/>
+                            <constraint firstItem="tPA-MJ-lVw" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="282.5" id="Zce-Ce-VzJ"/>
                             <constraint firstItem="6fD-U2-w6O" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="iWZ-Pa-5qN"/>
-                            <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="75.5" id="oLY-JE-kZk"/>
+                            <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="126.5" id="oLY-JE-kZk"/>
                             <constraint firstItem="rHb-GL-Nj7" firstAttribute="centerX" secondItem="NmD-ki-J7Y" secondAttribute="centerX" id="qyc-wK-xIb"/>
-                            <constraint firstItem="zWA-oG-7fh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="138.5" id="uiO-lG-mOT"/>
+                            <constraint firstItem="zWA-oG-7fh" firstAttribute="centerY" secondItem="NmD-ki-J7Y" secondAttribute="centerY" constant="205.5" id="uiO-lG-mOT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GLH-xv-NH5"/>
                     </view>
@@ -847,16 +858,16 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an activity!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq1-VA-GYW">
-                                <rect key="frame" x="81.5" y="108.5" width="212.5" height="27.5"/>
+                                <rect key="frame" x="81.5" y="109" width="212.5" height="27"/>
                                 <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="23"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTO-hX-1Tf">
-                                <rect key="frame" x="-0.5" y="351" width="372" height="103"/>
+                                <rect key="frame" x="-5" y="351.5" width="381" height="102.00000000000003"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="334" id="wdk-sR-JgK"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="wpe-4p-z0E"/>
+                                    <constraint firstAttribute="width" constant="381" id="wdk-sR-JgK"/>
+                                    <constraint firstAttribute="height" constant="102" id="wpe-4p-z0E"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="actButton">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -866,10 +877,10 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfj-Ul-3Wl">
-                                <rect key="frame" x="0.0" y="527" width="372" height="103"/>
+                                <rect key="frame" x="-4.5" y="527.5" width="381" height="102"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="334" id="I4l-cR-zNd"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="r9S-fk-FEB"/>
+                                    <constraint firstAttribute="width" constant="381" id="I4l-cR-zNd"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="102" id="r9S-fk-FEB"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="actButton">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -879,12 +890,10 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bc-ue-Os6">
-                                <rect key="frame" x="-1" y="264" width="372" height="102"/>
+                                <rect key="frame" x="-5.5" y="264" width="381" height="102.00000000000003"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="372" id="Frx-EV-V0T"/>
+                                    <constraint firstAttribute="width" constant="381" id="Frx-EV-V0T"/>
                                     <constraint firstAttribute="height" constant="102" id="G4Q-I6-W37"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="344" id="hPF-EG-hYu"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="ssX-3W-fts"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="actButton">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -895,22 +904,22 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stroll Around" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X8-w2-YYa">
-                                <rect key="frame" x="41" y="292" width="100" height="21"/>
+                                <rect key="frame" x="38" y="292" width="106" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="YYc-DT-JBP"/>
+                                    <constraint firstAttribute="width" constant="106" id="YYc-DT-JBP"/>
                                     <constraint firstAttribute="height" constant="21" id="wQ1-bD-faL"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get moving around, at a blissful pace." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcl-ZV-Dn5">
-                                <rect key="frame" x="40" y="315" width="288" height="21"/>
+                                <rect key="frame" x="38" y="315" width="288" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="gTp-aa-zmg"/>
                                     <constraint firstAttribute="width" constant="288" id="skG-0e-NBn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -920,23 +929,23 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="width" constant="71" id="3Pg-x4-iB9"/>
                                     <constraint firstAttribute="height" constant="21" id="nzx-Sb-6d5"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Easy as finding 5, 4, 3, 2, 1 things. " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3X-u2-lfu">
-                                <rect key="frame" x="40" y="402" width="263" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="40" y="401.5" width="251" height="22"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy  Beverage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMH-Vm-KOI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy Beverage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMH-Vm-KOI">
                                 <rect key="frame" x="41" y="558" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="cRA-od-cya"/>
                                     <constraint firstAttribute="width" constant="123" id="m35-gG-BPq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -946,7 +955,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="height" constant="21" id="5DI-Ig-fTR"/>
                                     <constraint firstAttribute="width" constant="283" id="Dhf-3B-WQj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -967,19 +976,24 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Zg-jP-Zwx">
-                                <rect key="frame" x="22" y="33" width="34" height="30"/>
-                                <state key="normal" title="Back">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="8.5" y="21.5" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="JHT-Yb-Pak"/>
+                                    <constraint firstAttribute="width" constant="80" id="gXJ-Y9-A9j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="14"/>
+                                <state key="normal" title="Back" backgroundImage="backbutton">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="bb9-qc-Wzp" kind="show" id="0AK-Ur-AZY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTG-Bi-uAa">
-                                <rect key="frame" x="-0.5" y="439" width="372" height="103"/>
+                                <rect key="frame" x="-5" y="439.5" width="381" height="102"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="88" id="Bgr-He-p9J"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="334" id="c9q-f5-avK"/>
+                                    <constraint firstAttribute="height" constant="102" id="Bgr-He-p9J"/>
+                                    <constraint firstAttribute="width" constant="381" id="c9q-f5-avK"/>
                                 </constraints>
                                 <state key="normal" title="Button" backgroundImage="actButton">
                                     <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -989,12 +1003,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guided Breathing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Su-uI-8ZP">
-                                <rect key="frame" x="40" y="469" width="134" height="21"/>
+                                <rect key="frame" x="40" y="469" width="161" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="PEx-pQ-yvf"/>
-                                    <constraint firstAttribute="width" constant="134" id="Y5u-iN-K0r"/>
+                                    <constraint firstAttribute="width" constant="161" id="Y5u-iN-K0r"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-SemiBold" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1004,7 +1018,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                     <constraint firstAttribute="height" constant="21" id="byu-EG-yOl"/>
                                     <constraint firstAttribute="width" constant="273" id="uVd-Y7-G4l"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1012,7 +1026,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="p0j-fk-niW" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" id="09Q-sl-4qB"/>
-                            <constraint firstItem="bcl-ZV-Dn5" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-3.5" id="0BF-JD-hfz"/>
+                            <constraint firstItem="bcl-ZV-Dn5" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-5.5" id="0BF-JD-hfz"/>
                             <constraint firstItem="CYM-T7-2j9" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-11" id="0Dw-st-w8B"/>
                             <constraint firstItem="uNd-Pg-Q4Q" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="256" id="0SU-Ir-9KX"/>
                             <constraint firstItem="LTG-Bi-uAa" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="157" id="1S8-U9-kpK"/>
@@ -1022,7 +1036,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             <constraint firstItem="cYn-Ki-hxZ" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-115.5" id="9DV-0n-vhl"/>
                             <constraint firstItem="p0j-fk-niW" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" id="Boy-cl-OTD"/>
                             <constraint firstItem="6Su-uI-8ZP" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="146" id="Bzf-ta-kz8"/>
-                            <constraint firstItem="5Zg-jP-Zwx" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-285.5" id="CFV-yP-hPH"/>
+                            <constraint firstItem="5Zg-jP-Zwx" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-294.5" id="CFV-yP-hPH"/>
                             <constraint firstItem="UAB-OG-J2E" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="56" id="CdN-cJ-Tzw"/>
                             <constraint firstItem="gfj-Ul-3Wl" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-1.5" id="G09-sI-JSI"/>
                             <constraint firstItem="CYM-T7-2j9" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="169" id="M61-c3-JP2"/>
@@ -1039,12 +1053,12 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             <constraint firstItem="bq1-VA-GYW" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-211.25" id="gDZ-SW-QCC"/>
                             <constraint firstItem="uTO-hX-1Tf" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2" id="gTz-h3-dKE"/>
                             <constraint firstItem="UAB-OG-J2E" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-112" id="jzN-Y1-YsT"/>
-                            <constraint firstItem="5Zg-jP-Zwx" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-148.5" id="kgX-J4-NXt"/>
-                            <constraint firstItem="E3X-u2-lfu" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-16" id="lG8-u1-ePF"/>
+                            <constraint firstItem="5Zg-jP-Zwx" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-139" id="kgX-J4-NXt"/>
+                            <constraint firstItem="E3X-u2-lfu" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-22" id="lG8-u1-ePF"/>
                             <constraint firstItem="LTG-Bi-uAa" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2" id="oIg-AU-keL"/>
                             <constraint firstItem="5bc-ue-Os6" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-2.5" id="vxn-Xr-U1V"/>
                             <constraint firstItem="1px-7W-jH5" firstAttribute="centerY" secondItem="8um-Ua-MhV" secondAttribute="centerY" constant="-160" id="w7G-VP-YSE"/>
-                            <constraint firstItem="6Su-uI-8ZP" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-80.5" id="z5h-IT-Qka"/>
+                            <constraint firstItem="6Su-uI-8ZP" firstAttribute="centerX" secondItem="8um-Ua-MhV" secondAttribute="centerX" constant="-67" id="z5h-IT-Qka"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Li5-qZ-fDY"/>
                     </view>
@@ -1140,8 +1154,8 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCB-VV-qf3">
-                                <rect key="frame" x="160" y="203" width="55.5" height="30"/>
-                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="22"/>
+                                <rect key="frame" x="157.5" y="227.5" width="60.5" height="33"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1153,7 +1167,7 @@ we are going to cope with  complex emotions that are  looked down upon.</str
                             <constraint firstItem="eA7-qZ-qog" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="68" id="U7M-PH-BbU"/>
                             <constraint firstItem="MXr-0c-dEh" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="fgY-DW-1Vh"/>
                             <constraint firstItem="zUa-Fj-cHs" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" id="iDD-Co-sqh"/>
-                            <constraint firstItem="MCB-VV-qf3" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="-115.5" id="r4f-OQ-66o"/>
+                            <constraint firstItem="MCB-VV-qf3" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="-89.75" id="r4f-OQ-66o"/>
                             <constraint firstItem="MXr-0c-dEh" firstAttribute="centerY" secondItem="eOO-F9-3zZ" secondAttribute="centerY" constant="-211.25" id="vOY-re-NH5"/>
                             <constraint firstItem="MCB-VV-qf3" firstAttribute="centerX" secondItem="eOO-F9-3zZ" secondAttribute="centerX" id="zxe-Pv-nVY"/>
                         </constraints>
@@ -1515,19 +1529,28 @@ Like other things with more practice comes more reward.
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozi-Dt-kJu">
+                                <rect key="frame" x="137" y="593" width="101" height="38"/>
+                                <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik Medium" pointSize="16"/>
+                                <state key="normal" title="Done" backgroundImage="CTAButton">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fQc-GD-TeQ" kind="show" id="Vq5-pj-jJV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="ozi-Dt-kJu" firstAttribute="centerX" secondItem="7i6-Eh-00T" secondAttribute="centerX" id="G7P-Mh-hdL"/>
                             <constraint firstItem="Lxx-JK-1k1" firstAttribute="centerY" secondItem="7i6-Eh-00T" secondAttribute="centerY" id="LPg-0j-tuc"/>
                             <constraint firstItem="PhV-Dg-bpk" firstAttribute="centerX" secondItem="7i6-Eh-00T" secondAttribute="centerX" id="SjK-nf-Qqo"/>
                             <constraint firstItem="Lxx-JK-1k1" firstAttribute="centerX" secondItem="7i6-Eh-00T" secondAttribute="centerX" id="f0O-hO-1NQ"/>
                             <constraint firstItem="PhV-Dg-bpk" firstAttribute="centerY" secondItem="7i6-Eh-00T" secondAttribute="centerY" id="pgu-Dg-oBm"/>
+                            <constraint firstItem="ozi-Dt-kJu" firstAttribute="centerY" secondItem="7i6-Eh-00T" secondAttribute="centerY" constant="278.5" id="x15-X8-Zp5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ig1-8F-aq6"/>
                     </view>
-                    <connections>
-                        <segue destination="fQc-GD-TeQ" kind="show" identifier="toHome" id="PqX-9J-66B"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3AM-HT-Hjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1538,11 +1561,13 @@ Like other things with more practice comes more reward.
         <image name="CTAButton" width="101" height="38"/>
         <image name="OnboardButton" width="101" height="38"/>
         <image name="actButton" width="372" height="103"/>
+        <image name="backbutton" width="101" height="38"/>
         <image name="blueGrad" width="414" height="736"/>
         <image name="emoButton" width="372" height="103"/>
         <image name="launchScreen" width="414" height="736"/>
         <image name="life" width="178" height="178"/>
         <image name="listen" width="97" height="128"/>
+        <image name="logoutButton" width="101" height="38"/>
         <image name="look" width="136" height="90"/>
         <image name="note1" width="42" height="59"/>
         <image name="note2" width="59" height="54"/>
@@ -1552,10 +1577,10 @@ Like other things with more practice comes more reward.
         <image name="touch" width="91" height="95"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vQS-7J-Ge3"/>
-        <segue reference="4Jw-dG-g7q"/>
+        <segue reference="2kK-iY-RGV"/>
+        <segue reference="Gyy-l8-2X7"/>
         <segue reference="0AK-Ur-AZY"/>
-        <segue reference="PqX-9J-66B"/>
+        <segue reference="Urt-n2-hiT"/>
         <segue reference="j4y-SI-fOw"/>
         <segue reference="1AB-bO-Jza"/>
     </inferredMetricsTieBreakers>

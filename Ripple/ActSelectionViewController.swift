@@ -34,7 +34,7 @@ wordLabel.text = emotion
             controller2.emotionTitle = (wordLabel.text ?? nil)!
 
         }
-        else if segue.identifier == "activityThreer"{
+        else if segue.identifier == "activityThree"{
             let controller2 = segue.destination as! MusicSelViewController
             controller2.emotionTitle = (wordLabel.text ?? nil)!
 
