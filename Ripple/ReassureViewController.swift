@@ -12,11 +12,7 @@ class ReassureViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-let timer = Timer.scheduledTimer(timeInterval: 8, target: self, selector: #selector(autoSegue), userInfo: nil, repeats: false)
         // Do any additional setup after loading the view.
-    }
-    @objc func autoSegue() {
-        self.performSegue(withIdentifier: "toHome", sender: self)
     }
 
     /*
